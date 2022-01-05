@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.toolbar{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links{
+  display: flex;
+
+}
+.nav-links li{
+  list-style: none;
+}
+.nav-links li a{
+  text-decoration: none;
+  color: #000;
+}
