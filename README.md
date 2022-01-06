@@ -1,22 +1,19 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello Microverse
+# Portfolio: setup and mobile version skeleton
 
-> First project in the Microverse program.
+> In this project I created a toolbar and a headline for a mobile version.
 
-![screenshot](./app_screenshot.png)
-
+![screenshot](/images/screencapture-Portfolio.png)
 
 ## Built With
 
 - HTML
 - CSS
 
-
 ## Live Demo
 
 [Live Demo Link](https://livedemo.com)
-
 
 ## Authors
 
@@ -25,7 +22,6 @@
 - GitHub: [@githubridwan](https://github.com/ridwanediallo)
 - Twitter: [@twitterridwan](https://twitter.com/RidwaneD)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ridwan-diallo-9a1634193)
-
 
 ## 🤝 Contributing
 
