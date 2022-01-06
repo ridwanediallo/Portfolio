@@ -1,13 +1,10 @@
-body{
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Poppins;
 }
-
-/* -------------------- */
 /* TOOLBAR SECTION */
-/* -------------------- */
 .toolbar {
   display: flex;
   justify-content: space-between;
@@ -15,7 +12,6 @@ body{
   padding: 20px;
   background-color: #fff;
 }
-
 .logo {
   font-style: normal;
   font-weight: bold;
@@ -26,10 +22,7 @@ body{
 .menu-icon {
   height: 20px;
 }
-
-/* -------------------- */
 /* HEADING SECTION */
-/* -------------------- */
 .hero {
   padding: 0;
   height: 70vh;
@@ -39,7 +32,6 @@ body{
   background-color: #fff;
   padding-bottom: 30px;
 }
-
 .glad {
   font-style: normal;
   font-weight: bold;
@@ -50,7 +42,6 @@ body{
   margin-bottom: 10px;
   margin-top: 0;
 }
-
 .description {
   font-style: normal;
   font-weight: normal;
@@ -60,7 +51,6 @@ body{
   margin-bottom: 10px;
   padding: 0 20px;
 }
-
 .connect {
   font-style: normal;
   font-weight: 500;
@@ -70,13 +60,11 @@ body{
   color: #7f8cff;
   margin-bottom: 10px;
   padding: 0 20px;
-
 }
 .social-icons {
   display: flex;
   gap: 24px;
   padding: 0 20px;
-
 }
 .social-icons li {
   list-style: none;
