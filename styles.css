@@ -4,7 +4,9 @@ body {
   box-sizing: border-box;
   font-family: Poppins, sans-serif;
 }
+
 /* TOOLBAR SECTION */
+
 .toolbar {
   display: flex;
   justify-content: space-between;
@@ -12,6 +14,7 @@ body {
   padding: 20px;
   background-color: #fff;
 }
+
 .logo {
   font-style: normal;
   font-weight: bold;
@@ -19,10 +22,13 @@ body {
   line-height: 20px;
   color: #6070ff;
 }
+
 .menu-icon {
   height: 20px;
 }
+
 /* HEADING SECTION */
+
 .hero {
   padding: 0;
   height: 70vh;
@@ -32,6 +38,7 @@ body {
   background-color: #fff;
   padding-bottom: 30px;
 }
+
 .glad {
   font-style: normal;
   font-weight: bold;
@@ -42,6 +49,7 @@ body {
   margin-bottom: 10px;
   margin-top: 0;
 }
+
 .description {
   font-style: normal;
   font-weight: normal;
@@ -51,6 +59,7 @@ body {
   margin-bottom: 10px;
   padding: 0 20px;
 }
+
 .connect {
   font-style: normal;
   font-weight: 500;
@@ -61,14 +70,17 @@ body {
   margin-bottom: 10px;
   padding: 0 20px;
 }
+
 .social-icons {
   display: flex;
   gap: 24px;
   padding: 0 20px;
 }
+
 .social-icons li {
   list-style: none;
 }
+
 .social-icon {
   height: 24px;
 }
