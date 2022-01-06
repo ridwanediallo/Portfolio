@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+
+/* TOOLBAR SECTION */
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.logo {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.menu-icon {
+  height: 20px;
+}
+
+/* HEADING SECTION */
+
+.hero {
+  padding: 0;
+  background: url(./images/hero-bg1/header-shapes\ mobile@1x.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.glad {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  padding: 96px 20px 10px 20px;
+  margin: 0;
+}
+
+.description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #172b4d;
+  margin-bottom: 10px;
+  padding: 0 20px;
+}
+
+.connect {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #7f8cff;
+  margin-bottom: 10px;
+  padding: 0 20px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 24px;
+  padding: 0 20px;
+  padding-bottom: 50px;
+}
+
+.social-icons li {
+  list-style: none;
+}
+
+.social-icon {
+  height: 24px;
+}
