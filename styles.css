@@ -3,17 +3,17 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: Poppins, sans-serif;
-}
-
-html {
-  height: 100vh;
-  width: 100vw;
-  background-color: #ebebff;
+  background-color: #e5e5e5;
+  font-style: normal;
 }
 
 h1 {
   margin: 0;
   padding: 0;
+}
+
+li {
+  list-style: none;
 }
 
 /* TOOLBAR SECTION */
@@ -27,7 +27,6 @@ h1 {
 }
 
 .logo {
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
@@ -56,7 +55,6 @@ h1 {
 }
 
 .glad {
-  font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
@@ -66,7 +64,6 @@ h1 {
 }
 
 .description {
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
@@ -76,7 +73,6 @@ h1 {
 }
 
 .connect {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -104,14 +100,17 @@ h1 {
 /* SECTION WORK */
 
 .work {
-  display: flex;
+  display: grid;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .container {
+  display: grid;
+  justify-self: center;
   background-color: #fff;
   width: 90%;
-  height: 40rem;
+  height: 42rem;
   border-radius: 9px;
   margin-bottom: 100px;
 }
@@ -123,11 +122,11 @@ h1 {
 }
 
 .snapshoot {
-  margin-left: 22px;
+  margin-left: 21px;
 }
 
 .tonic {
-  padding: 10px 0 5px 20px;
+  padding: 5px 0 5px 20px;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -151,7 +150,6 @@ h1 {
 }
 
 .back-end {
-  font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -159,7 +157,6 @@ h1 {
 }
 
 .canopy {
-  font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -173,7 +170,7 @@ h1 {
   padding-left: 20px;
 }
 
-.tools p {
+.tool {
   background: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
@@ -181,7 +178,6 @@ h1 {
 }
 
 .see-project {
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -198,7 +194,7 @@ h1 {
 
 .container-about {
   background-color: #fff;
-  height: 65rem;
+  height: 75rem;
   border-radius: 0 100px 0 0;
 }
 
@@ -210,7 +206,7 @@ h1 {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  margin: 12px 20px;
+  margin: 20px 20px 20px 0;
   color: #000;
 }
 
@@ -225,7 +221,6 @@ h1 {
 }
 
 .name {
-  font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
@@ -235,8 +230,8 @@ h1 {
   padding-left: 10px;
 }
 
-.separator {
-  border-bottom: 0.7px solid #dfe1e6;
+hr {
+  margin: 0 20px;
 }
 
 button:enabled {

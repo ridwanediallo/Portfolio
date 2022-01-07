@@ -14,6 +14,7 @@
     <title>Portfolio: setup and mobile version skeleton</title>
   </head>
   <body>
+    <main>
     <section class="section1">
       <header>
         <nav class="toolbar">
@@ -66,7 +67,8 @@
           </li>
         </ul>
       </div>
-    </section>
+    </section> 
+ 
 
     <section class="work">
       <div class="container">
@@ -75,7 +77,7 @@
             <img src="images/Snapshoot1.png" alt="snapshoot1" />
           </div>
           <div class="text-content">
-            <h1 class="tonic">Tonic</h1>
+            <h2 class="tonic">Tonic</h2>
             <div class="profile">
               <p class="canopy">Canopy</p>
               <p class="back-end">
@@ -97,11 +99,11 @@
               A daily selection of privately personalized reads; no accounts or
               sign-ups required.
             </p>
-            <div class="tools">
-              <p>html</p>
-              <p>css</p>
-              <p>javaScript</p>
-            </div>
+            <ul class="tools">
+              <li class="tool"> html</li>
+              <li class="tool"> css</li>
+              <li class="tool"> javaScript</li>
+            </ul>
             <button type="button" class="see-project">
               See Project
             </button>
@@ -117,10 +119,10 @@
             <img src="images/Snapshoot2.png" alt="snapshoot2" />
           </div>
           <div class="text-content">
-            <h1 class="tonic">
+            <h2 class="tonic">
               Multi-Post <br />
               Stories
-            </h1>
+            </h2>
             <div class="profile">
               <p class="canopy">Canopy</p>
               <p class="back-end">
@@ -142,11 +144,11 @@
               A daily selection of privately personalized reads; no accounts or
               sign-ups required.
             </p>
-            <div class="tools">
-              <p>html</p>
-              <p>css</p>
-              <p>javaScript</p>
-            </div>
+           <ul class="tools">
+              <li class="tool"> html</li>
+              <li class="tool"> css</li>
+              <li class="tool"> javaScript</li>
+            </ul>
             <button type="button" class="see-project">
               See Project
             </button>
@@ -162,7 +164,7 @@
             <img src="images/Snapshoot3.png" alt="snapshoot3" />
           </div>
           <div class="text-content">
-            <h1 class="tonic">Tonic</h1>
+            <h2 class="tonic">Tonic</h2>
             <div class="profile">
               <p class="canopy">Canopy</p>
               <p class="back-end">
@@ -184,11 +186,11 @@
               A daily selection of privately personalized reads; no accounts or
               sign-ups required.
             </p>
-            <div class="tools">
-              <p> html</p>
-              <p>css</p>
-              <p>javaScript</p>
-            </div>
+            <ul class="tools">
+              <li class="tool"> html</li>
+              <li class="tool"> css</li>
+              <li class="tool"> javaScript</li>
+            </ul>
             <button type="button" class="see-project">
               See Project
             </button>
@@ -204,10 +206,10 @@
             <img src="images/Snapshoot4.png" alt="snapshoot4" />
           </div>
           <div class="text-content">
-            <h1 class="tonic">
+            <h2 class="tonic">
               Multi-Post <br />
               Stories
-            </h1>
+            </h2>
             <div class="profile">
               <p class="canopy">Canopy</p>
               <p class="back-end">
@@ -229,11 +231,11 @@
               A daily selection of privately personalized reads; no accounts or
               sign-ups required.
             </p>
-            <div class="tools">
-              <p> html</p>
-              <p> css</p>
-              <p> javaScript</p>
-            </div>
+            <ul class="tools">
+              <li class="tool"> html</li>
+              <li class="tool"> css</li>
+              <li class="tool"> javaScript</li>
+            </ul>
             <button type="button" class="see-project">
               See Project
             </button>
@@ -242,11 +244,13 @@
       </div>
     </section>
 
+
     <section class="aboutme">
       <div class="container-about">
         <div class="content">
           <div class="about">
-            <h1 class="glad">About Myself</h1>
+            <h2 class="glad">About <br>
+               Myself</h2>
             <p class="description">
               Hello I’m a software developer! I can help you build a product ,
               feature or website Look through some of my work and experience! If
@@ -302,38 +306,43 @@
             </button>
           </div>
           <div class="technologies">
-              <div class="educ langguages">
-                  <h3>Languages</h3>
-                  <ion-icon name="chevron-down-outline"></ion-icon>
-              </div>
+              <ul class="educ langguages">
+                 <li>Languages</li>
+                  <li><ion-icon name="chevron-down-outline"></ion-icon></li>
+              </ul>
               <div class="3langguages">
-                   <div class="langguage">
-                       <img class="ellipse" src="images/Ellipse-1.png" alt="Ellipse 1">
-                       <p class="name">JavaScript</p>
-                   </div>
-                   <div class="langguage">
-                       <img class="ellipse" src="images/Ellipse-2.png" alt="Ellipse 2">
-                       <p class="name">HTM</p>
-                   </div>
-                   <div class="langguage">
-                       <img class="ellipse" src="images/Ellipse-3.png" alt="Ellipse 3">
-                       <p class="name">CSS</p>
-                   </div>
+                   <ul class="langguage">
+                      <li><img class="ellipse" src="images/Ellipse-1.png" alt="Ellipse 1"></li>
+                       <li class="name">JavaScript</li>
+                   </ul>
+                   <ul class="langguage">
+                      <li><img class="ellipse" src="images/Ellipse-2.png" alt="Ellipse 2"></li>
+                       <li class="name">HTM</li>
+                   </ul>
+                   <ul class="langguage">
+                      <li><img class="ellipse" src="images/Ellipse-3.png" alt="Ellipse 3"></li>
+                       <li class="name">CSS</li>
+                   </ul>
               </div>
-              <div class="educ separator frameworks">
-                  <h3>Frameworks</h3>
-                  <ion-icon name="chevron-forward-outline"></ion-icon> 
-              </div>
-              <div class="educ separator skills">
-                  <h3>Skills</h3>
-                  <ion-icon name="chevron-forward-outline"></ion-icon>
-              </div>
+              <ul class="educ separator frameworks">
+                  <li>Frameworks</li>
+                 <li><ion-icon name="chevron-forward-outline"></ion-icon></li> 
+              </ul>
+              <hr>
+              <ul class="educ separator skills">
+                  <li>Skills</li>
+                 <li><ion-icon name="chevron-forward-outline"></ion-icon></li>
+              </ul>
+               <hr>
           </div>
         </div>
       </div>
     </section>
+</main>
+
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
+
 </html>
