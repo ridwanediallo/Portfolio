@@ -268,7 +268,7 @@ footer {
   padding-top: 100px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   gap: 60px;
 }
 
@@ -277,4 +277,34 @@ footer {
   flex-direction: column;
   align-items: center;
   padding: 10px 24px;
+}
+
+footer .title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+}
+
+form{
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  
+  margin: 0 0 0 24px;
+}
+
+footer .supporting-text {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebeeff;
+}
+
+footer input {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 20px 100px 20px 20px;
+  /* margin-right: 0; */
+  margin-bottom: 20px;
 }
