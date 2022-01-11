@@ -263,11 +263,9 @@ footer {
   background-size: 30% 120%;
   background-position: right 20px bottom;
   border-radius: 100px 0 0 0;
-  height: 709.17px;
   padding-top: 100px;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   gap: 60px;
 }
 
@@ -304,8 +302,36 @@ form > div {
   display: flex;
   flex-direction: column;
 }
-form input {
+form input,
+form textarea {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin-bottom: 20px;
+  padding: 15px;
+}
+
+form textarea {
+  min-height: 170px;
+}
+
+.form-submit:enabled {
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  margin-left: 0;
+  color: #396df2;
+  padding: 12px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.form-submit:hover {
+  background-color: rgb(79, 0, 213);
+  color: #fff;
+  text-decoration: underline;
+  border: 1px solid #fff;
 }
