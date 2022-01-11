@@ -296,10 +296,12 @@ form {
   align-items: stretch;
   margin: 0 24px;
 }
+
 form > div {
   display: flex;
   flex-direction: column;
 }
+
 form input,
 form textarea {
   border: 1px solid #cfd8dc;
@@ -334,7 +336,7 @@ form textarea {
   border: 1px solid #fff;
 }
 
-h2.title{
+h2.title {
   margin: 0;
   padding: 0;
 }
