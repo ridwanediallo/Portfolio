@@ -265,4 +265,8 @@ footer {
   background-position: right 20px bottom;
   border-radius: 100px 0 0 0;
   height: 709.17px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
