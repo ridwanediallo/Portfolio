@@ -3,7 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: Poppins, sans-serif;
-  background-color: #e5e5e5;
+  background-color: rgb(247, 247, 249);
   font-style: normal;
 }
 
@@ -111,6 +111,7 @@ li {
   background-color: #fff;
   width: 90%;
   height: 42rem;
+  border: 1px solid #dfe1e6;
   border-radius: 9px;
   margin-bottom: 100px;
 }
@@ -262,6 +263,6 @@ footer {
   background-repeat: no-repeat;
   background-size: 30% 120%;
   background-position: right 20px bottom;
-
+  border-radius: 100px 0 0 0;
   height: 709.17px;
 }
