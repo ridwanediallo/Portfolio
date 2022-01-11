@@ -260,13 +260,11 @@ footer {
   background-color: #6070ff;
   background-image: url(./images/footer-gb/contact\ form\ shapes-mobile.svg);
   background-repeat: no-repeat;
-  background-size: 30% 120%;
-  background-position: right 20px bottom;
+  background-position: right bottom 35px;
   border-radius: 100px 0 0 0;
-  padding-top: 100px;
+  padding-top: 64px;
   display: flex;
   flex-direction: column;
-  gap: 60px;
 }
 
 .footer-text {
@@ -334,4 +332,9 @@ form textarea {
   color: #fff;
   text-decoration: underline;
   border: 1px solid #fff;
+}
+
+h2.title{
+  margin: 0;
+  padding: 0;
 }
