@@ -44,14 +44,13 @@ li {
 /* HEADING SECTION */
 
 .hero {
-  padding: 0;
-  height: 70vh;
   background: url(./images/hero-bg1/header-shapes\ mobile@1x.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #fff;
   margin-bottom: 20px;
   border-radius: 0 0 0 100px;
+  padding-bottom: 70px;
 }
 
 .glad {
