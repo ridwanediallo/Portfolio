@@ -260,7 +260,8 @@ footer {
   background-color: #6070ff;
   background-image: url(./images/footer-gb/contact\ form\ shapes-mobile.svg);
   background-repeat: no-repeat;
-  background-position: right bottom 35px;
+  background-position: right bottom 20px;
+  background-size: auto 90%;
   border-radius: 100px 0 0 0;
   padding-top: 64px;
   display: flex;
