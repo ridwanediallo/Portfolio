@@ -275,6 +275,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 10px 24px;
 }
 
@@ -285,15 +286,16 @@ footer .title {
   color: #fff;
 }
 
-form{
+form {
   /* display: flex;
   flex-direction: column;
   align-items: center; */
-  
+
   margin: 0 0 0 24px;
 }
 
 footer .supporting-text {
+  text-align: center;
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
@@ -304,6 +306,5 @@ footer input {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding: 20px 100px 20px 20px;
-  /* margin-right: 0; */
   margin-bottom: 20px;
 }
