@@ -253,3 +253,15 @@ button:hover {
   color: #fff;
   text-decoration: underline;
 }
+
+/* FOOTER */
+
+footer {
+  background-color: #6070ff;
+  background-image: url(./images/footer-gb/contact\ form\ shapes-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 30% 120%;
+  background-position: right 20px bottom;
+
+  height: 709.17px;
+}
