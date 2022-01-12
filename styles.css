@@ -16,6 +16,10 @@ li {
   list-style: none;
 }
 
+header{
+  background-color: #fff;
+}
+
 /* TOOLBAR SECTION */
 
 .toolbar {
@@ -45,7 +49,7 @@ li {
 
 .hero {
   background: url(./images/hero-bg1/header-shapes\ mobile@1x.svg);
-  background-size: cover;
+  background-size: 100% 80vh;
   background-repeat: no-repeat;
   background-color: #fff;
   margin-bottom: 20px;
@@ -348,4 +352,86 @@ form textarea {
 h2.title {
   margin: 0;
   padding: 0;
+}
+
+/* DESKTOP */
+
+nav ul {
+  display: flex;
+  gap: 25px;
+}
+
+li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+}
+
+/* MEDIA QUERY */
+
+@media(max-width: 61em){
+  .nav-links {
+    display: none;
+  }
+}
+
+@media(min-width: 62em) {
+  .menu-icon {
+    display: none;
+  }
+
+  nav {
+    margin: 0 10em;
+  }
+
+  .hero {
+  background: url(./images/header-bg/Header\ bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  /* background-size: 100% 80vh; */
+  background-size: contain;
+  /* margin-bottom: 20px; */
+  border-radius: 0 0 0 100px;
+  /* padding-bottom: 70px; */
+  height: 80vh;
+  width: auto;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-child{
+  align-self: center;
+  /* width: 50%;
+  height: auto; */
+  display: flex;
+  flex-direction: column;
+}
+
+.glad{
+  margin: 0 260px 0 260px;
+}
+
+.description{
+  margin: 0px 260px 0 260px;
+}
+
+
+.second-child{
+ align-self: center;
+ margin-left: 0;
+
+}
+
+.content {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 20px;
+}
+
 }
