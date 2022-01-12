@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://ridwanediallo.github.io/Portfolio/)
 
 ## Authors
 
@@ -24,6 +24,12 @@
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ridwan-diallo-9a1634193)
 
 ## 🤝 Contributing
+
+👤 **Soufiane Boursen**
+
+- GitHub: [@Sboursen](https://github.com/Sboursen)
+- Twitter: [@sboursen_dev](https://twitter.com/sboursen_dev)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/sboursen)
 
 Contributions, issues, and feature requests are welcome!
 

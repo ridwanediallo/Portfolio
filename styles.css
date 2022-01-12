@@ -3,7 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: Poppins, sans-serif;
-  background-color: #e5e5e5;
+  background-color: rgb(247, 247, 249);
   font-style: normal;
 }
 
@@ -44,14 +44,13 @@ li {
 /* HEADING SECTION */
 
 .hero {
-  padding: 0;
-  height: 70vh;
   background: url(./images/hero-bg1/header-shapes\ mobile@1x.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #fff;
   margin-bottom: 20px;
   border-radius: 0 0 0 100px;
+  padding-bottom: 70px;
 }
 
 .glad {
@@ -111,6 +110,7 @@ li {
   background-color: #fff;
   width: 90%;
   height: 42rem;
+  border: 1px solid #dfe1e6;
   border-radius: 9px;
   margin-bottom: 100px;
 }
@@ -252,4 +252,91 @@ button:hover {
   background-color: #6070ff;
   color: #fff;
   text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #6070ff;
+  background-image: url(./images/footer-gb/contact\ form\ shapes-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: right top 20px;
+  border-radius: 100px 0 0 0;
+  padding-top: 79px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 24px;
+}
+
+footer .title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+}
+
+footer .supporting-text {
+  text-align: center;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebeeff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 0 24px;
+}
+
+form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+form textarea {
+  min-height: 170px;
+}
+
+.form-submit:enabled {
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  margin-left: 0;
+  color: #396df2;
+  padding: 12px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.form-submit:hover {
+  background-color: rgb(79, 0, 213);
+  color: #fff;
+  text-decoration: underline;
+  border: 1px solid #fff;
+}
+
+h2.title {
+  margin: 0;
+  padding: 0;
 }
