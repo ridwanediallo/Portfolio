@@ -25,6 +25,12 @@
 
 ## 🤝 Contributing
 
+👤 **Soufiane Boursen**
+
+- GitHub: [@Sboursen](https://github.com/Sboursen)
+- Twitter: [@sboursen_dev](https://twitter.com/sboursen_dev)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/sboursen)
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
