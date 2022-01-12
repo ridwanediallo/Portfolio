@@ -109,20 +109,29 @@ li {
   justify-self: center;
   background-color: #fff;
   width: 90%;
-  height: 42rem;
   border: 1px solid #dfe1e6;
   border-radius: 9px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 .content {
   display: grid;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: auto auto;
   padding-top: 20px;
 }
 
 .snapshoot {
-  margin-left: 21px;
+  display: flex;
+  justify-content: stretch;
+  margin: 0 21px;
+}
+
+.snapshoot img {
+  width: 100%;
+}
+
+.text-content {
+  margin-bottom: 40px;
 }
 
 .tonic {
