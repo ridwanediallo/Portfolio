@@ -380,7 +380,7 @@ nav ul {
 
 /* MEDIA QUERY */
 
-@media (max-width: 992px) {
+@media (max-width: 800px) {
   .nav-links {
     display: none;
   }
@@ -402,7 +402,7 @@ nav ul {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 801px) {
   .menu-icon {
     display: none;
   }
@@ -413,14 +413,17 @@ nav ul {
 
   .hero {
     background: url(./images/header-bg/Header\ bg.svg);
-    background-size: cover;
+    background-size: 100%;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
     background-color: #fff;
-    height: 80vh;
-    margin: 0;
-    padding: 0;
+    /* height: 80vh; */
+ /* padding-left: 79px; */
+    /* margin: 0;
+    padding: 0; */
+    /* padding-left: 150px;
+    padding-bottom: 150px; */
   }
 
   .first-child {
