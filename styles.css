@@ -391,6 +391,7 @@ li a {
     background: url(./images/header-bg/Header\ bg.svg);
     background-repeat: no-repeat;
     /* background-size: 100% 100%; */
+  background-position: right top 20px;
     width: 100%;
     background-color: #fff;
     /* background-size: 100% 80vh; */
@@ -409,8 +410,6 @@ li a {
 
   .first-child {
     align-self: center;
-    /* width: 50%;
-  height: auto; */
     display: flex;
     flex-direction: column;
   }
@@ -431,8 +430,9 @@ li a {
   }
 
   .description{
-    
+
   }
+  
   .content:nth-child(odd) .snapshoot {
     order: 2;
   }
