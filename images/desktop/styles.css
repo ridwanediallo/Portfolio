@@ -203,13 +203,13 @@ header {
 /* SECTION ABOUT ME */
 
 .container-about {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding-top: 20px;
-    margin: 48px 0;
-    background-color: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 9px;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 20px;
+  margin: 48px 0;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 9px;
 }
 
 .educ {
@@ -390,19 +390,24 @@ li a {
   .hero {
     background: url(./images/header-bg/Header\ bg.svg);
     background-repeat: no-repeat;
+
     /* background-size: 100% 100%; */
-  /* background-position: right top 20px; */
+
+    /* background-position: right top 20px; */
     width: 100%;
     background-color: #fff;
+
     /* background-size: 100% 80vh; */
     background-size: cover;
+
     /* margin-bottom: 20px; */
     border-radius: 0 0 0 100px;
+
     /* padding-bottom: 70px; */
     height: 80vh;
+
     /* width: auto; */
     display: flex;
-
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -432,7 +437,7 @@ li a {
   /* .content:nth-child(odd) .snapshoot {
     order: 1;
   } */
-  .content:nth-child(even) .snapshoot{
+  .content:nth-child(even) .snapshoot {
     order: 2;
   }
 
@@ -441,29 +446,32 @@ li a {
     src: url(Portfolio\images\desktop\Snapshoot-Portfolio.png);
   }
 
-  .container-about{
+  .container-about {
     grid-template-columns: 1fr 1fr;
   }
 
-  .hero-content{
+  .hero-content {
     background: transparent;
     padding: 0 260px;
   }
-  
-  .snapshoot1-mobile{
-    display: none;
-  }
-  .snapshoot2-mob{
-    display: none;
-  }
-  .snapshoot3-mob{
-    display: none;
-  }
-  .snapshoot4-mob{
+
+  .snapshoot1-mobile {
     display: none;
   }
 
-  .tonic br{
+  .snapshoot2-mob {
+    display: none;
+  }
+
+  .snapshoot3-mob {
+    display: none;
+  }
+
+  .snapshoot4-mob {
+    display: none;
+  }
+
+  .tonic br {
     display: none;
   }
 }

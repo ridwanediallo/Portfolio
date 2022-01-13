@@ -12,6 +12,10 @@ h1 {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 li {
   list-style: none;
 }
@@ -37,15 +41,15 @@ header {
   color: #6070ff;
 }
 
-.logo a {
-  text-decoration: none;
-}
-
 .menu-icon {
   height: 20px;
 }
 
 /* HEADING SECTION */
+
+.section1 {
+  margin: 0 auto;
+}
 
 .hero {
   background: url(./images/hero-bg1/header-shapes\ mobile@1x.svg);
@@ -119,6 +123,10 @@ header {
   display: grid;
   grid-template-rows: auto auto;
   padding: 20px 0;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 9px;
+  margin-bottom: 100px;
 }
 
 .snapshoot {
@@ -203,13 +211,14 @@ header {
 /* SECTION ABOUT ME */
 
 .container-about {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding-top: 20px;
-    margin: 48px 0;
-    background-color: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 9px;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 20px;
+
+  /* margin: 48px 0; */
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 0 100px 0 0;
 }
 
 .educ {
@@ -362,8 +371,7 @@ nav ul {
   gap: 25px;
 }
 
-li a {
-  text-decoration: none;
+.nav-links a {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
@@ -372,40 +380,47 @@ li a {
 
 /* MEDIA QUERY */
 
-@media (max-width: 61em) {
+@media (max-width: 992px) {
   .nav-links {
+    display: none;
+  }
+
+  .snapshoot1-desk {
+    display: none;
+  }
+
+  .snapshoot2-desk {
+    display: none;
+  }
+
+  .snapshoot3-desk {
+    display: none;
+  }
+
+  .snapshoot4-desk {
     display: none;
   }
 }
 
-@media (min-width: 62em) {
+@media (min-width: 992px) {
   .menu-icon {
     display: none;
   }
 
   nav {
-    margin: 0 10em;
+    margin: 0 8em;
   }
 
   .hero {
     background: url(./images/header-bg/Header\ bg.svg);
-    background-repeat: no-repeat;
-    /* background-size: 100% 100%; */
-  /* background-position: right top 20px; */
-    width: 100%;
-    background-color: #fff;
-    /* background-size: 100% 80vh; */
     background-size: cover;
-    /* margin-bottom: 20px; */
-    border-radius: 0 0 0 100px;
-    /* padding-bottom: 70px; */
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff;
     height: 80vh;
-    /* width: auto; */
-    display: flex;
-
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: 0;
+    padding: 0;
   }
 
   .first-child {
@@ -423,47 +438,93 @@ li a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 20px;
-    margin: 48px 0;
+    margin: 48px;
     background-color: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 9px;
+    border: 2px solid #a7aeff;
+    border-radius: 24px;
   }
 
-  /* .content:nth-child(odd) .snapshoot {
-    order: 1;
-  } */
-  .content:nth-child(even) .snapshoot{
+  .content:nth-child(even) .snapshoot {
     order: 2;
   }
 
-  .snapshoot1 {
-    display: block;
-    src: url(Portfolio\images\desktop\Snapshoot-Portfolio.png);
-  }
-
-  .container-about{
+  .container-about {
     grid-template-columns: 1fr 1fr;
+    padding: 100px;
   }
 
-  .hero-content{
+  .langguage {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    width: 122px;
+  }
+
+  .langguages {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hero-content {
     background: transparent;
     padding: 0 260px;
   }
-  
-  .snapshoot1-mobile{
-    display: none;
-  }
-  .snapshoot2-mob{
-    display: none;
-  }
-  .snapshoot3-mob{
-    display: none;
-  }
-  .snapshoot4-mob{
+
+  .snapshoot1-mob {
     display: none;
   }
 
-  .tonic br{
+  .snapshoot2-mob {
+    display: none;
+  }
+
+  .snapshoot3-mob {
+    display: none;
+  }
+
+  .snapshoot4-mob {
+    display: none;
+  }
+
+  .tonic br {
+    display: none;
+  }
+
+  .about .glad {
+    padding-top: 0;
+  }
+
+  footer {
+    background-color: #6070ff;
+    background-image: url(./images/ft-desktop/contact\ form\ background\ shapes.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom 20px;
+    border-radius: 100px 0 0 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0 33%;
+  }
+
+  form .form-submit:enabled {
+    align-self: center;
+    margin-bottom: 127px;
+  }
+
+  footer > img {
     display: none;
   }
 }
