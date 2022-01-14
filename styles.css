@@ -518,11 +518,10 @@ nav ul {
   form .form-submit:enabled {
     align-self: center;
     margin-bottom: 127px;
-   text-decoration: none;
+    text-decoration: none;
   }
 
   footer > img {
     display: none;
   }
-
 }
