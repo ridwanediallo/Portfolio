@@ -274,7 +274,6 @@ button:enabled {
 button:hover {
   background-color: #6070ff;
   color: #fff;
-  text-decoration: underline;
 }
 
 /* FOOTER */
@@ -519,9 +518,11 @@ nav ul {
   form .form-submit:enabled {
     align-self: center;
     margin-bottom: 127px;
+   text-decoration: none;
   }
 
   footer > img {
     display: none;
   }
+
 }
