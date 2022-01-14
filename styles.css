@@ -12,8 +12,16 @@ h1 {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 li {
   list-style: none;
+}
+
+header {
+  background-color: #fff;
 }
 
 /* TOOLBAR SECTION */
@@ -33,19 +41,19 @@ li {
   color: #6070ff;
 }
 
-.logo a {
-  text-decoration: none;
-}
-
 .menu-icon {
   height: 20px;
 }
 
 /* HEADING SECTION */
 
+.section1 {
+  margin: 0 auto;
+}
+
 .hero {
   background: url(./images/hero-bg1/header-shapes\ mobile@1x.svg);
-  background-size: cover;
+  background-size: 100% 80vh;
   background-repeat: no-repeat;
   background-color: #fff;
   margin-bottom: 20px;
@@ -107,17 +115,18 @@ li {
 .container {
   display: grid;
   justify-self: center;
-  background-color: #fff;
   width: 90%;
-  border: 1px solid #dfe1e6;
-  border-radius: 9px;
   margin-bottom: 20px;
 }
 
 .content {
   display: grid;
   grid-template-rows: auto auto;
-  padding-top: 20px;
+  padding: 20px 0;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 9px;
+  margin-bottom: 100px;
 }
 
 .snapshoot {
@@ -202,8 +211,13 @@ li {
 /* SECTION ABOUT ME */
 
 .container-about {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 20px;
+
+  /* margin: 48px 0; */
   background-color: #fff;
-  height: 75rem;
+  border: 1px solid #dfe1e6;
   border-radius: 0 100px 0 0;
 }
 
@@ -260,7 +274,6 @@ button:enabled {
 button:hover {
   background-color: #6070ff;
   color: #fff;
-  text-decoration: underline;
 }
 
 /* FOOTER */
@@ -348,4 +361,167 @@ form textarea {
 h2.title {
   margin: 0;
   padding: 0;
+}
+
+/* DESKTOP */
+
+nav ul {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 800px) {
+  .nav-links {
+    display: none;
+  }
+
+  .snapshoot1-desk {
+    display: none;
+  }
+
+  .snapshoot2-desk {
+    display: none;
+  }
+
+  .snapshoot3-desk {
+    display: none;
+  }
+
+  .snapshoot4-desk {
+    display: none;
+  }
+}
+
+@media (min-width: 801px) {
+  .menu-icon {
+    display: none;
+  }
+
+  nav {
+    margin: 0 8em;
+  }
+
+  .hero {
+    background: url(./images/header-bg/Header\ bg.svg);
+    background-size: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: #fff;
+  }
+
+  .first-child {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .second-child {
+    width: 100%;
+    align-self: flex-start;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
+    margin: 48px;
+    background-color: #fff;
+    border: 2px solid #a7aeff;
+    border-radius: 24px;
+  }
+
+  .content:nth-child(even) .snapshoot {
+    order: 2;
+  }
+
+  .container-about {
+    grid-template-columns: 1fr 1fr;
+    padding: 100px;
+  }
+
+  .langguage {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    width: 122px;
+  }
+
+  .langguages {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hero-content {
+    background: transparent;
+    padding: 0 260px;
+  }
+
+  .snapshoot1-mob {
+    display: none;
+  }
+
+  .snapshoot2-mob {
+    display: none;
+  }
+
+  .snapshoot3-mob {
+    display: none;
+  }
+
+  .snapshoot4-mob {
+    display: none;
+  }
+
+  .tonic br {
+    display: none;
+  }
+
+  .about .glad {
+    padding-top: 0;
+  }
+
+  footer {
+    background-color: #6070ff;
+    background-image: url(./images/ft-desktop/contact\ form\ background\ shapes.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom 20px;
+    border-radius: 100px 0 0 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0 33%;
+  }
+
+  form .form-submit:enabled {
+    align-self: center;
+    margin-bottom: 127px;
+    text-decoration: none;
+  }
+
+  footer > img {
+    display: none;
+  }
 }
