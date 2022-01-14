@@ -377,6 +377,10 @@ nav ul {
   color: #344563;
 }
 
+.nav-links a:hover{
+   border-bottom: 5px solid #6070FF;;
+}
+
 /* MEDIA QUERY */
 
 @media (max-width: 800px) {
