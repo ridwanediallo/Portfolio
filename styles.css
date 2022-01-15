@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -34,7 +38,7 @@ header {
   background-color: #fff;
 }
 
-.logo {
+.logo a {
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
@@ -98,6 +102,12 @@ header {
 
 .social-icons li {
   list-style: none;
+  height: 24px;
+  width: 24px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .social-icon {
@@ -106,7 +116,7 @@ header {
 
 /* SECTION WORK */
 
-.work {
+#work {
   display: grid;
   justify-content: center;
   margin-bottom: 20px;
@@ -377,6 +387,10 @@ nav ul {
   color: #344563;
 }
 
+.nav-links a:hover {
+  border-bottom: 5px solid #ebebff;
+}
+
 /* MEDIA QUERY */
 
 @media (max-width: 800px) {
@@ -524,4 +538,39 @@ nav ul {
   footer > img {
     display: none;
   }
+}
+
+/* Soufiane's animations */
+
+.nav-links li a:hover {
+  background-color: #6070ff;
+  font-weight: 700;
+  color: #ebebff;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in;
+}
+
+@keyframes logo {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.logo {
+  animation: logo 2s ease-in-out 1s 11000;
+}
+
+.tool:hover {
+  transform: scale(1.2);
+}
+
+.social-icons li:hover {
+  background-color: #6070ff;
+  border-radius: 50%;
 }
