@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -112,7 +116,7 @@ header {
 
 /* SECTION WORK */
 
-.work {
+#work {
   display: grid;
   justify-content: center;
   margin-bottom: 20px;
@@ -570,8 +574,3 @@ nav ul {
   border-radius: 50%;
 }
 
-.social-icons li:active {
-  /* background-color: #6070ff; */
-  border-radius: 50%;
-  border: 1px solid rgb(0, 168, 165);
-}
