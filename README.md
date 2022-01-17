@@ -4,7 +4,7 @@
 
 > This is my second project in the Microverse program and it's about creating a mobile version portfolio based on a provided template.
 
-![screenshot](/images/screencapturePortfolio1.png)
+![screenshot](Portfolio\images\Portfolio-desktop-version.png)
 
 ## Built With
 
