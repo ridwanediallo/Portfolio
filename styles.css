@@ -45,6 +45,12 @@ header {
   height: 20px;
 }
 
+.close {
+  font-size: 30px;
+  color: #396df2;
+  display: none;
+}
+
 /* HEADING SECTION */
 
 .section1 {
