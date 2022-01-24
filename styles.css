@@ -377,6 +377,28 @@ nav ul {
   color: #344563;
 }
 
+.menu-links {
+  display: block;
+  position: absolute;
+  top: 50px;
+  background-color: #396df2;
+  opacity: 0.9;
+  overflow: hidden;
+  left: 0;
+  width: 100%;
+  height: 60vh;
+  padding: 106px 0 0 28px;
+}
+
+.menu-links li a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
 /* MEDIA QUERY */
 
 @media (max-width: 800px) {
@@ -403,6 +425,10 @@ nav ul {
 
 @media (min-width: 801px) {
   .menu-icon {
+    display: none;
+  }
+
+  .menu-links {
     display: none;
   }
 
