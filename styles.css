@@ -396,16 +396,22 @@ nav ul {
   padding: 106px 0 0 28px;
 }
 
-.menu-links li{
+.menu-links li {
   margin-bottom: 40px;
 }
-.menu-links li a{
+
+.menu-links li a {
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
   color: #fff;
+}
 
+.bar {
+  padding-top: 225px;
+  margin-left: 28%;
+  align-self: center;
 }
 
 /* MEDIA QUERY */
