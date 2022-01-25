@@ -51,10 +51,9 @@ header {
   top: 0;
   background-color: #396df2;
   opacity: 0.9;
-  /* overflow: visible; */
   left: 0;
   width: 93%;
-  height: 60vh;
+  height: 62vh;
   padding: 106px 0 0 28px;
   margin: 0;
 }
@@ -93,6 +92,7 @@ header {
   color: blue;
   height: 50px;
   width: 50px;
+
   /* position: absolute;
   top: 0;
   right: 0;
@@ -444,7 +444,7 @@ nav ul {
 }
 
 .bar {
-  padding-top: 150px;
+  padding-top: 160px;
   margin-left: 28%;
   align-self: center;
 }
@@ -474,9 +474,9 @@ nav ul {
 }
 
 @media (min-width: 801px) {
-   .open{
-     display: none;
-   }
+  .open {
+    display: none;
+  }
 
   .menu-icon {
     display: none;
