@@ -1,24 +1,37 @@
 "use strict";
-const menubtn = document.getElementById("menu");
+const menubtn = document.querySelector(".open");
+const closebtn = document.querySelector(".close");
+const logo = document.querySelector(".logo");
 const mobilemenu = document.querySelector(".menu-links");
 const menu = document.querySelector(".menu-icon");
 const contactLink = document.querySelectorAll(".ctc-link a");
 
 mobilemenu.style.display = "none";
 
-menubtn.onclick = function () {
+menubtn.addEventListener("click", function () {
   if (mobilemenu.style.display === "none") {
     mobilemenu.style.display = "block";
-    menu.src = "images/close.png";
+    logo.style.display = "none";
+    menubtn.style.display = "none";
   } else {
     mobilemenu.style.display = "none";
-    menu.src = "images/Union.svg";
+    logo.style.display = "block";
+    menubtn.style.display = "block";
   }
-};
+});
+
+closebtn.addEventListener("click", function () {
+  if (mobilemenu.style.display === "block") {
+    mobilemenu.style.display = "none";
+    logo.style.display = "block";
+    menubtn.style.display = "block";
+  }
+});
 
 contactLink.forEach((element) => {
   element.addEventListener("click", function () {
     mobilemenu.style.display = "none";
-    menu.src = "images/Union.png";
+    logo.style.display = "block";
+    menubtn.style.display = "block";
   });
 });
