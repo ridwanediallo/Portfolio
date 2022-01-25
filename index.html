@@ -11,6 +11,17 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
+
+    <!--Font awesome icons-->
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
     <title>Portfolio: setup and mobile version skeleton</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HVXYZFY757"></script>
@@ -28,23 +39,40 @@
     <main>
       <section class="section1">
         <header>
-          <nav class="toolbar">
-            <h2 class="logo"><a href="#">My Logo</a></h2>
-            <a href="#"
-              ><img class="menu-icon" src="images/Union.svg" alt="menu-icon"
-            /></a>
+          <nav>
+            <div class="toolbar">
+              <h2 class="logo"><a href="#">My Logo</a></h2>
+              <ion-icon class="open" name="menu-outline"></ion-icon>
+            </div>
+            <div class="menu-links">
+              <ul class="menu-ul">
+                <li class="ctc-link"><a href="#portfolio">Portfolio</a></li>
+                <li class="ctc-link"><a href="#about">About</a></li>
+                <li class="ctc-link ctc-last">
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+              <ion-icon class="close" name="close-outline"></ion-icon>
+              <img
+                class="bar"
+                src="/images/Shape.png"
+                alt="horizontal-bar"
+              />
+            </div>
             <ul class="nav-links">
-              <li><a href="#work">Portfolio</a></li>
-              <li><a href="#aboutme">About</a></li>
-              <li><a href="#contact-form">Contact</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
         </header>
         <div class="hero">
           <div class="hero-content">
             <div class="first-child">
-              <h1 class="glad">I’m Ridwan <br>
-                 Glad to see you!</h1>
+              <h1 class="glad">
+                I’m Ridwan <br />
+                Glad to see you!
+              </h1>
               <p class="description">
                 I’m a software developer! I can help you build a product ,
                 feature or website Look through some of my work and experience!
@@ -103,7 +131,8 @@
         </div>
       </section>
 
-      <section id="work">
+
+      <section id="portfolio" class="work">
         <div class="container">
           <div class="content">
             <div class="snapshoot">
@@ -266,7 +295,7 @@
         </div>
       </section>
 
-      <section id="aboutme">
+      <section id="about" class="aboutme">
         <div class="container-about">
           <div class="about">
             <h2 class="glad">
@@ -333,7 +362,7 @@
                 /></a>
               </li>
             </ul>
-            <button type="button" class="see-project">Get my resume</button>
+            <button type="button" class="btn btn-primary">Get my resume</button>
           </div>
           <div class="technologies">
             <ul class="educ langguages">
@@ -392,7 +421,8 @@
         </div>
       </section>
     </main>
-    <footer id="contact-form">
+  
+    <footer id="contact">
       <div class="footer-text">
         <h2 class="title">Contact me</h2>
         <p class="supporting-text">
@@ -451,5 +481,6 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
