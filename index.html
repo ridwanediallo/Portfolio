@@ -29,20 +29,26 @@
     <main>
       <section class="section1">
         <header>
-          <nav class="toolbar">
-            <h2 class="logo"><a href="#">My Logo</a></h2>
-            <div id="menu">
-              <a href="#"
-              ><img class="menu-icon" src="images/Union.svg" alt="menu-icon"
-            /></a>
-            </a>
+          <nav>
+            <div class="toolbar">
+              <h2 class="logo"><a href="#">My Logo</a></h2>
+              <ion-icon class="open" name="menu-outline"></ion-icon>
             </div>
-            <ul class="menu-links">
-              <li class="ctc-link"><a href="#portfolio">Portfolio</a></li>
-              <li class="ctc-link"><a href="#about">About</a></li>
-              <li class="ctc-link ctc-last"><a href="#contact">Contact</a></li>
-              <img class="bar" src="images\horizontal-bar\Shape.png" alt="horizontal-bar">
-            </ul>
+            <div class="menu-links">
+              <ul class="menu-ul">
+                <li class="ctc-link"><a href="#portfolio">Portfolio</a></li>
+                <li class="ctc-link"><a href="#about">About</a></li>
+                <li class="ctc-link ctc-last">
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>      
+              <ion-icon class="close" name="close-outline"></ion-icon>
+              <img
+                class="bar"
+                src="images\horizontal-bar\Shape.png"
+                alt="horizontal-bar"
+              />
+            </div>
             <ul class="nav-links">
               <li><a href="#portfolio">Portfolio</a></li>
               <li><a href="#about">About</a></li>
@@ -53,8 +59,10 @@
         <div class="hero">
           <div class="hero-content">
             <div class="first-child">
-              <h1 class="glad">I’m Ridwan <br>
-                 Glad to see you!</h1>
+              <h1 class="glad">
+                I’m Ridwan <br />
+                Glad to see you!
+              </h1>
               <p class="description">
                 I’m a software developer! I can help you build a product ,
                 feature or website Look through some of my work and experience!
