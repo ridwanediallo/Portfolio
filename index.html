@@ -1,427 +1,320 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
 
-    <!--Font awesome icons-->
-    <link
-      rel="stylesheet"
-      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
 
-    <title>Portfolio: setup and mobile version skeleton</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-HVXYZFY757"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        window.dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
+  <!--Font awesome icons-->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-      gtag('config', 'G-HVXYZFY757');
-    </script>
-  </head>
+  <title>Portfolio: setup and mobile version skeleton</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HVXYZFY757"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  <body>
-    <main>
-      <section class="section1">
-        <header>
-          <nav>
-            <div class="toolbar">
-              <h2 class="logo"><a href="#">My Logo</a></h2>
-              <ion-icon class="open" name="menu-outline"></ion-icon>
-            </div>
-            <div class="menu-links">
-              <ul class="menu-ul">
-                <li class="ctc-link"><a href="#portfolio">Portfolio</a></li>
-                <li class="ctc-link"><a href="#about">About</a></li>
-                <li class="ctc-link ctc-last">
-                  <a href="#contact">Contact</a>
-                </li>
-              </ul>
-              <ion-icon class="close" name="close-outline"></ion-icon>
-              <img class="bar" src="/images/Shape.png" alt="horizontal-bar" />
-            </div>
-            <ul class="nav-links">
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-HVXYZFY757');
+  </script>
+</head>
+
+<body>
+  <main>
+    <section class="section1">
+      <header>
+        <nav>
+          <div class="toolbar">
+            <h2 class="logo"><a href="#">My Logo</a></h2>
+            <ion-icon class="open" name="menu-outline"></ion-icon>
+          </div>
+          <div class="menu-links">
+            <ul class="menu-ul">
+              <li class="ctc-link"><a href="#portfolio">Portfolio</a></li>
+              <li class="ctc-link"><a href="#about">About</a></li>
+              <li class="ctc-link ctc-last">
+                <a href="#contact">Contact</a>
+              </li>
             </ul>
-          </nav>
-        </header>
-        <div class="hero">
-          <div class="hero-content">
-            <div class="first-child">
-              <h1 class="glad">
-                I’m Ridwan <br />
-                Glad to see you!
-              </h1>
-              <p class="description">
-                I’m a software developer! I can help you build a product ,
-                feature or website Look through some of my work and experience!
-                If you like what you see and have a project you need coded,
-                don’t hestiate to contact me.
-              </p>
-            </div>
-
-            <div class="second-child">
-              <p class="connect">let's connect</p>
-              <ul class="social-icons">
-                <li>
-                  <a href="https://twitter.com/RidwaneD"
-                    ><img
-                      src="images/Vector.svg"
-                      alt="twitter"
-                      class="social-icon"
-                  /></a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/ridwan-diallo-9a1634193/"
-                    ><img
-                      src="images/Linkedin-icon.svg"
-                      alt="linkedin"
-                      class="social-icon"
-                  /></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><img
-                      src="images/medium.svg"
-                      alt="medium"
-                      class="social-icon"
-                  /></a>
-                </li>
-                <li>
-                  <a href="https://github.com/ridwanediallo">
-                    <img
-                      src="images/github.svg"
-                      alt="github"
-                      class="social-icon"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><img
-                      src="images/angellist.svg"
-                      alt="angellist"
-                      class="social-icon"
-                  /></a>
-                </li>
-              </ul>
-            </div>
+            <ion-icon class="close" name="close-outline"></ion-icon>
+            <img class="bar" src="/images/Shape.png" alt="horizontal-bar" />
           </div>
-        </div>
-      </section>
-
-      <section id="portfolio" class="work">
-        <div class="container">
-          <div class="content">
-            <div class="snapshoot">
-              <img
-                class="snapshoot1-mob"
-                src="images/Snapshoot1.png"
-                alt="snapshoot1"
-              />
-              <img
-                class="snapshoot1-desk"
-                src="images/desktop/Snapshoot-Portfolio.png"
-                alt="snapshoot1"
-              />
-            </div>
-            <div class="text-content">
-              <h2 class="tonic">Tonic</h2>
-              <div class="profile">
-                <p class="canopy">Canopy</p>
-                <p class="back-end">
-                  <img class="counter" src="images/Counter.png" alt="counter" />
-                  Back End Dev
-                </p>
-                <p class="back-end">
-                  <img class="counter" src="images/Counter.png" alt="counter" />
-                  2015
-                </p>
-              </div>
-              <p class="detail">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <ul class="tools">
-                <li class="tool">html</li>
-                <li class="tool">css</li>
-                <li class="tool">javaScript</li>
-              </ul>
-              <button type="button" class="see-project">See Project</button>
-            </div>
-          </div>
-          <div class="content">
-            <div class="snapshoot">
-              <img
-                class="snapshoot2-mob"
-                src="images/Snapshoot2.png"
-                alt="snapshoot2"
-              />
-              <img
-                class="snapshoot2-desk"
-                src="images/Snapshoot4.png"
-                alt="snapshoot4"
-              />
-            </div>
-            <div class="text-content">
-              <h2 class="tonic">
-                Multi-Post <br />
-                Stories
-              </h2>
-              <div class="profile">
-                <p class="canopy">Canopy</p>
-                <p class="back-end">
-                  <img class="counter" src="images/Counter.png" alt="counter" />
-                  Back End Dev
-                </p>
-                <p class="back-end">
-                  <img class="counter" src="images/Counter.png" alt="counter" />
-                  2015
-                </p>
-              </div>
-              <p class="detail">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <ul class="tools">
-                <li class="tool">html</li>
-                <li class="tool">css</li>
-                <li class="tool">javaScript</li>
-              </ul>
-              <button type="button" class="see-project">See Project</button>
-            </div>
-          </div>
-          <div class="content">
-            <div class="snapshoot snapshoot3">
-              <img
-                class="snapshoot3-mob"
-                src="images/Snapshoot3.png"
-                alt="snapshoot3"
-              />
-              <img
-                class="snapshoot3-desk"
-                src="images/Snapshoot1.png"
-                alt="snapshoot1"
-              />
-            </div>
-            <div class="text-content">
-              <h2 class="tonic">Tonic</h2>
-              <div class="profile">
-                <p class="canopy">Canopy</p>
-                <p class="back-end">
-                  <img class="counter" src="images/Counter.png" alt="counter" />
-                  Back End Dev
-                </p>
-                <p class="back-end">
-                  <img class="counter" src="images/Counter.png" alt="counter" />
-                  2015
-                </p>
-              </div>
-              <p class="detail">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <ul class="tools">
-                <li class="tool">html</li>
-                <li class="tool">css</li>
-                <li class="tool">javaScript</li>
-              </ul>
-              <button type="button" class="see-project">See Project</button>
-            </div>
-          </div>
-          <div class="content">
-            <div class="snapshoot snapshoot4">
-              <img
-                class="snapshoot4-mob"
-                src="images/Snapshoot4.png"
-                alt="snapshoot4"
-              />
-              <img
-                class="snapshoot4-desk"
-                src="images/Snapshoot2.png"
-                alt="snapshoot2"
-              />
-            </div>
-            <div class="text-content">
-              <h2 class="tonic">
-                Multi-Post <br />
-                Stories
-              </h2>
-              <div class="profile">
-                <p class="canopy">Canopy</p>
-                <p class="back-end">
-                  <img class="counter" src="images/Counter.png" alt="counter" />
-                  Back End Dev
-                </p>
-                <p class="back-end">
-                  <img class="counter" src="images/Counter.png" alt="counter" />
-                  2015
-                </p>
-              </div>
-              <p class="detail">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <ul class="tools">
-                <li class="tool">html</li>
-                <li class="tool">css</li>
-                <li class="tool">javaScript</li>
-              </ul>
-              <button type="button" class="see-project">See Project</button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="about" class="aboutme">
-        <div class="container-about">
-          <div class="about">
-            <h2 class="glad">
-              About <br />
-              Myself
-            </h2>
+          <ul class="nav-links">
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="hero">
+        <div class="hero-content">
+          <div class="first-child">
+            <h1 class="glad">
+              I’m Ridwan <br />
+              Glad to see you!
+            </h1>
             <p class="description">
-              Hello I’m a software developer! I can help you build a product ,
-              feature or website Look through some of my work and experience! If
-              you like what you see and have a project you need coded, don’t
-              hestiate to contact me.
+              I’m a software developer! I can help you build a product ,
+              feature or website Look through some of my work and experience!
+              If you like what you see and have a project you need coded,
+              don’t hestiate to contact me.
             </p>
+          </div>
+
+          <div class="second-child">
             <p class="connect">let's connect</p>
             <ul class="social-icons">
               <li>
-                <a
-                  href="https://twitter.com/RidwaneD"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><img
-                    src="images/Vector.svg"
-                    alt="twitter"
-                    class="social-icon"
-                /></a>
+                <a href="https://twitter.com/RidwaneD"><img src="images/Vector.svg" alt="twitter"
+                    class="social-icon" /></a>
               </li>
               <li>
-                <a
-                  href="https://www.linkedin.com/in/ridwan-diallo-9a1634193/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><img
-                    src="images/Linkedin-icon.svg"
-                    alt="linkedin"
-                    class="social-icon"
-                /></a>
+                <a href="https://www.linkedin.com/in/ridwan-diallo-9a1634193/"><img src="images/Linkedin-icon.svg"
+                    alt="linkedin" class="social-icon" /></a>
               </li>
               <li>
-                <a href="#"
-                  ><img
-                    src="images/medium.svg"
-                    alt="medium"
-                    class="social-icon"
-                /></a>
+                <a href="#"><img src="images/medium.svg" alt="medium" class="social-icon" /></a>
               </li>
               <li>
-                <a
-                  href="https://github.com/ridwanediallo"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="images/github.svg"
-                    alt="github"
-                    class="social-icon"
-                  />
+                <a href="https://github.com/ridwanediallo">
+                  <img src="images/github.svg" alt="github" class="social-icon" />
                 </a>
               </li>
               <li>
-                <a href="#"
-                  ><img
-                    src="images/angellist.svg"
-                    alt="angellist"
-                    class="social-icon"
-                /></a>
+                <a href="#"><img src="images/angellist.svg" alt="angellist" class="social-icon" /></a>
               </li>
             </ul>
-            <button type="button" class="get-resume">Get my resume</button>
-          </div>
-          <div class="technologies">
-            <ul class="educ langguages">
-              <li>Languages</li>
-              <li>
-                <ion-icon name="chevron-down-outline"> </ion-icon>
-              </li>
-            </ul>
-            <div class="langguages">
-              <ul class="langguage">
-                <li>
-                  <img
-                    class="ellipse"
-                    src="images/Ellipse-1.png"
-                    alt="Ellipse 1"
-                  />
-                </li>
-                <li class="name">JavaScript</li>
-              </ul>
-              <ul class="langguage">
-                <li>
-                  <img
-                    class="ellipse"
-                    src="images/Ellipse-2.png"
-                    alt="Ellipse 2"
-                  />
-                </li>
-                <li class="name">HTM</li>
-              </ul>
-              <ul class="langguage">
-                <li>
-                  <img
-                    class="ellipse"
-                    src="images/Ellipse-3.png"
-                    alt="Ellipse 3"
-                  />
-                </li>
-                <li class="name">CSS</li>
-              </ul>
-            </div>
-            <ul class="educ separator frameworks">
-              <li>Frameworks</li>
-              <li>
-                <ion-icon name="chevron-forward-outline"> </ion-icon>
-              </li>
-            </ul>
-            <hr />
-            <ul class="educ separator skills">
-              <li>Skills</li>
-              <li>
-                <ion-icon name="chevron-forward-outline"> </ion-icon>
-              </li>
-            </ul>
-            <hr />
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="detail-section">
-        <div class="modal container">
+    <section id="portfolio" class="work">
+      <div class="container">
+        <div class="content">
+          <div class="snapshoot">
+            <img class="snapshoot1-mob" src="images/Snapshoot1.png" alt="snapshoot1" />
+            <img class="snapshoot1-desk" src="images/desktop/Snapshoot-Portfolio.png" alt="snapshoot1" />
+          </div>
+          <div class="text-content">
+            <h2 class="tonic">Tonic</h2>
+            <div class="profile">
+              <p class="canopy">Canopy</p>
+              <p class="back-end">
+                <img class="counter" src="images/Counter.png" alt="counter" />
+                Back End Dev
+              </p>
+              <p class="back-end">
+                <img class="counter" src="images/Counter.png" alt="counter" />
+                2015
+              </p>
+            </div>
+            <p class="detail">
+              A daily selection of privately personalized reads; no accounts
+              or sign-ups required.
+            </p>
+            <ul class="tools">
+              <li class="tool">html</li>
+              <li class="tool">css</li>
+              <li class="tool">javaScript</li>
+            </ul>
+            <button type="button" class="see-project">See Project</button>
+          </div>
+        </div>
+        <div class="content">
+          <div class="snapshoot">
+            <img class="snapshoot2-mob" src="images/Snapshoot2.png" alt="snapshoot2" />
+            <img class="snapshoot2-desk" src="images/Snapshoot4.png" alt="snapshoot4" />
+          </div>
+          <div class="text-content">
+            <h2 class="tonic">
+              Multi-Post <br />
+              Stories
+            </h2>
+            <div class="profile">
+              <p class="canopy">Canopy</p>
+              <p class="back-end">
+                <img class="counter" src="images/Counter.png" alt="counter" />
+                Back End Dev
+              </p>
+              <p class="back-end">
+                <img class="counter" src="images/Counter.png" alt="counter" />
+                2015
+              </p>
+            </div>
+            <p class="detail">
+              A daily selection of privately personalized reads; no accounts
+              or sign-ups required.
+            </p>
+            <ul class="tools">
+              <li class="tool">html</li>
+              <li class="tool">css</li>
+              <li class="tool">javaScript</li>
+            </ul>
+            <button type="button" class="see-project">See Project</button>
+          </div>
+        </div>
+        <div class="content">
+          <div class="snapshoot snapshoot3">
+            <img class="snapshoot3-mob" src="images/Snapshoot3.png" alt="snapshoot3" />
+            <img class="snapshoot3-desk" src="images/Snapshoot1.png" alt="snapshoot1" />
+          </div>
+          <div class="text-content">
+            <h2 class="tonic">Tonic</h2>
+            <div class="profile">
+              <p class="canopy">Canopy</p>
+              <p class="back-end">
+                <img class="counter" src="images/Counter.png" alt="counter" />
+                Back End Dev
+              </p>
+              <p class="back-end">
+                <img class="counter" src="images/Counter.png" alt="counter" />
+                2015
+              </p>
+            </div>
+            <p class="detail">
+              A daily selection of privately personalized reads; no accounts
+              or sign-ups required.
+            </p>
+            <ul class="tools">
+              <li class="tool">html</li>
+              <li class="tool">css</li>
+              <li class="tool">javaScript</li>
+            </ul>
+            <button type="button" class="see-project">See Project</button>
+          </div>
+        </div>
+        <div class="content">
+          <div class="snapshoot snapshoot4">
+            <img class="snapshoot4-mob" src="images/Snapshoot4.png" alt="snapshoot4" />
+            <img class="snapshoot4-desk" src="images/Snapshoot2.png" alt="snapshoot2" />
+          </div>
+          <div class="text-content">
+            <h2 class="tonic">
+              Multi-Post <br />
+              Stories
+            </h2>
+            <div class="profile">
+              <p class="canopy">Canopy</p>
+              <p class="back-end">
+                <img class="counter" src="images/Counter.png" alt="counter" />
+                Back End Dev
+              </p>
+              <p class="back-end">
+                <img class="counter" src="images/Counter.png" alt="counter" />
+                2015
+              </p>
+            </div>
+            <p class="detail">
+              A daily selection of privately personalized reads; no accounts
+              or sign-ups required.
+            </p>
+            <ul class="tools">
+              <li class="tool">html</li>
+              <li class="tool">css</li>
+              <li class="tool">javaScript</li>
+            </ul>
+            <button type="button" class="see-project">See Project</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="aboutme">
+      <div class="container-about">
+        <div class="about">
+          <h2 class="glad">
+            About <br />
+            Myself
+          </h2>
+          <p class="description">
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
+          </p>
+          <p class="connect">let's connect</p>
+          <ul class="social-icons">
+            <li>
+              <a href="https://twitter.com/RidwaneD" target="_blank" rel="noopener noreferrer"><img
+                  src="images/Vector.svg" alt="twitter" class="social-icon" /></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/ridwan-diallo-9a1634193/" target="_blank"
+                rel="noopener noreferrer"><img src="images/Linkedin-icon.svg" alt="linkedin" class="social-icon" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/medium.svg" alt="medium" class="social-icon" /></a>
+            </li>
+            <li>
+              <a href="https://github.com/ridwanediallo" target="_blank" rel="noopener noreferrer">
+                <img src="images/github.svg" alt="github" class="social-icon" />
+              </a>
+            </li>
+            <li>
+              <a href="#"><img src="images/angellist.svg" alt="angellist" class="social-icon" /></a>
+            </li>
+          </ul>
+          <button type="button" class="get-resume">Get my resume</button>
+        </div>
+        <div class="technologies">
+          <ul class="educ langguages">
+            <li>Languages</li>
+            <li>
+              <ion-icon name="chevron-down-outline"> </ion-icon>
+            </li>
+          </ul>
+          <div class="langguages">
+            <ul class="langguage">
+              <li>
+                <img class="ellipse" src="images/Ellipse-1.png" alt="Ellipse 1" />
+              </li>
+              <li class="name">JavaScript</li>
+            </ul>
+            <ul class="langguage">
+              <li>
+                <img class="ellipse" src="images/Ellipse-2.png" alt="Ellipse 2" />
+              </li>
+              <li class="name">HTM</li>
+            </ul>
+            <ul class="langguage">
+              <li>
+                <img class="ellipse" src="images/Ellipse-3.png" alt="Ellipse 3" />
+              </li>
+              <li class="name">CSS</li>
+            </ul>
+          </div>
+          <ul class="educ separator frameworks">
+            <li>Frameworks</li>
+            <li>
+              <ion-icon name="chevron-forward-outline"> </ion-icon>
+            </li>
+          </ul>
+          <hr />
+          <ul class="educ separator skills">
+            <li>Skills</li>
+            <li>
+              <ion-icon name="chevron-forward-outline"> </ion-icon>
+            </li>
+          </ul>
+          <hr />
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-section">
+      <div class="popup">
+        <div class="modal">
           <div class="modal-div-1">
             <h2 class="modal-title">Tonic</h2>
             <ion-icon class="close-modal" name="close-outline"></ion-icon>
@@ -439,16 +332,8 @@
           </div>
           <div class="modal-div-3">
             <div class="modal-img">
-              <img
-                class="snapshoot1-mob"
-                src="images/Snapshoot1.png"
-                alt="snapshoot1"
-              />
-              <img
-                class="snapshoot1-desk"
-                src="images/desktop/Snapshoot-Portfolio.png"
-                alt="snapshoot1"
-              />
+              <img class="snapshoot1-mob" src="images/Snapshoot1.png" alt="snapshoot1" />
+              <img class="snapshoot1-desk" src="images/desktop/Snapshoot-Portfolio.png" alt="snapshoot1" />
             </div>
             <div class="modal-mobile-detail">
               <div>
@@ -501,68 +386,44 @@
             </div>
           </div>
         </div>
-      </section>
-    </main>
-
-    <footer id="contact">
-      <div class="footer-text">
-        <h2 class="title">Contact me</h2>
-        <p class="supporting-text">
-          If you have an application you are interested in developing, a feature
-          that you need built or a project that needs coding. I’d love to help
-          with it
-        </p>
       </div>
-      <form action="https://formspree.io/f/xwkyvenp" method="post" class="form">
-        <div class="name">
-          <label for="name"></label>
-          <input
-            type="text"
-            name="full-name"
-            id="name"
-            placeholder="Full name"
-            required
-            minlength="2"
-            maxlength="30"
-          />
-        </div>
-        <div class="email">
-          <label for="mail"></label>
-          <input
-            type="email"
-            name="mail"
-            id="mail"
-            placeholder="Email"
-            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-            required
-          />
-        </div>
-        <div class="message">
-          <label for="message"></label>
-          <textarea
-            name="message"
-            id="message"
-            placeholder="Enter text here"
-            required
-            maxlength="500"
-            minlength="10"
-          ></textarea>
-        </div>
+    </section>
+  </main>
 
-        <button type="submit" class="form-submit">Get in touch</button>
-      </form>
+  <footer id="contact">
+    <div class="footer-text">
+      <h2 class="title">Contact me</h2>
+      <p class="supporting-text">
+        If you have an application you are interested in developing, a feature
+        that you need built or a project that needs coding. I’d love to help
+        with it
+      </p>
+    </div>
+    <form action="https://formspree.io/f/xwkyvenp" method="post" class="form">
+      <div class="name">
+        <label for="name"></label>
+        <input type="text" name="full-name" id="name" placeholder="Full name" required minlength="2" maxlength="30" />
+      </div>
+      <div class="email">
+        <label for="mail"></label>
+        <input type="email" name="mail" id="mail" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          required />
+      </div>
+      <div class="message">
+        <label for="message"></label>
+        <textarea name="message" id="message" placeholder="Enter text here" required maxlength="500"
+          minlength="10"></textarea>
+      </div>
 
-      <img src="./images/footer-gb/Light.svg" alt="indicator" />
-    </footer>
+      <button type="submit" class="form-submit">Get in touch</button>
+    </form>
 
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-    <script src="script.js"></script>
-  </body>
+    <img src="./images/footer-gb/Light.svg" alt="indicator" />
+  </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="script.js"></script>
+</body>
+
 </html>
