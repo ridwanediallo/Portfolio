@@ -24,15 +24,19 @@
 
     <title>Portfolio: setup and mobile version skeleton</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HVXYZFY757"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){window.dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-HVXYZFY757"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-  gtag('config', 'G-HVXYZFY757');
-</script>
-
+      gtag('config', 'G-HVXYZFY757');
+    </script>
   </head>
 
   <body>
@@ -53,11 +57,7 @@
                 </li>
               </ul>
               <ion-icon class="close" name="close-outline"></ion-icon>
-              <img
-                class="bar"
-                src="/images/Shape.png"
-                alt="horizontal-bar"
-              />
+              <img class="bar" src="/images/Shape.png" alt="horizontal-bar" />
             </div>
             <ul class="nav-links">
               <li><a href="#portfolio">Portfolio</a></li>
@@ -130,7 +130,6 @@
           </div>
         </div>
       </section>
-
 
       <section id="portfolio" class="work">
         <div class="container">
@@ -420,8 +419,53 @@
           </div>
         </div>
       </section>
+
+      <section class="detail">
+        <div class="modal">
+          <div class="modal-div-1">
+            <h2 class="tonic">Tonic</h2>
+            <ion-icon class="close-modal" name="close-outline"></ion-icon>
+          </div>
+          <div class="modal-div-2">
+            <p class="canopy">Canopy</p>
+            <p class="back-end">
+              <img class="counter" src="images/Counter.png" alt="counter" />
+              Back End Dev
+            </p>
+            <p class="back-end">
+              <img class="counter" src="images/Counter.png" alt="counter" />
+              2015
+            </p>
+          </div>
+          <div class="modal-div-3">
+            <div class="modal-img">
+            <img
+              class="snapshoot1-modal"
+              src="images/Snapshoot1.png"
+              alt="snapshoot1"
+            />
+            </div>
+            <div class="modal-mobile-detail">
+            <p class="modal-description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essent.
+            </p>
+            <ul class="tools">
+              <li class="tool">html</li>
+              <li class="tool">css</li>
+              <li class="tool">javaScript</li>
+            </ul>
+            <button type="button" class="see-project">See Project</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-  
+
     <footer id="contact">
       <div class="footer-text">
         <h2 class="title">Contact me</h2>
