@@ -275,6 +275,8 @@ header {
 
 /* SECTION DETAIL */
 
+/* MOBILE */
+
 .modal {
   display: grid;
   grid-template-rows: auto auto;
@@ -282,7 +284,7 @@ header {
   background-color: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 9px;
-  min-height: 80vh;
+  height: fit-content;
 }
 
 .modal-div-1 {
@@ -321,7 +323,10 @@ header {
   margin: 0 21px;
 }
 
-.snapshoot1-modal {
+.snapshoot1-mob {
+  width: 100%;
+}
+.snapshoot1-desk {
   width: 100%;
 }
 
@@ -559,6 +564,10 @@ nav ul {
     display: none;
   }
 
+  .desk{
+    display: none;
+  }
+
   .snapshoot1-desk {
     display: none;
   }
@@ -586,6 +595,10 @@ nav ul {
   }
 
   .menu-links {
+    display: none;
+  }
+
+  .snapshoot1-mob{
     display: none;
   }
 
@@ -674,6 +687,42 @@ nav ul {
   .about .glad {
     padding-top: 0;
   }
+
+/* MODAL */
+
+.detail-section{
+  display: flex;
+  justify-content: center;
+}
+
+.modal{
+position: absolute;
+width: 1156px;
+height: 1163px;
+left: 142px;
+top: 77px;
+padding-bottom: 10%;
+}
+
+.modal-mobile-detail{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.modal-tools li {
+    margin-bottom: 10px;
+}
+
+.mobil{
+  border-bottom: none;
+}
+
+.mob{
+  display: none;
+
+}
+
 
   footer {
     background-color: #6070ff;
