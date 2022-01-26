@@ -282,14 +282,42 @@ header {
   background-color: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 9px;
+  min-height: 80vh;
+}
+
+.modal-div-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 21px;
+}
+
+.modal-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 0;
+}
+
+.close-modal {
+  font-size: 30px;
+  color: #67798e;
+}
+
+.modal-div-2 {
+  display: flex;
+  gap: 20px;
+  margin: 0 21px;
 }
 
 .modal-div-3 {
   display: grid;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: 1fr 1.5fr;
 }
 
-.modal-img{
+.modal-img {
   margin: 0 21px;
 }
 
@@ -299,6 +327,30 @@ header {
 
 .modal-mobile-detail {
   margin: 0 21px;
+}
+
+.modal-tools{
+  display: flex;
+  gap: 20px;
+  padding-left: 0;
+  border-bottom: 1px solid #EBECF0;
+}
+
+.modal-tools li{
+  margin-bottom: 20px;
+}
+
+.modal-btn {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  padding: 12px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 20px 20px 0 0;
 }
 
 /* SECTION ABOUT ME */
@@ -350,7 +402,8 @@ hr {
   margin: 0 20px;
 }
 
-button:enabled {
+.get-resume,
+.see-project:enabled {
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
