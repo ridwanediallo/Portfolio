@@ -21,9 +21,12 @@ const data = [
   },
   {
     id: 'project-2',
-    name: 'Multi-Post Stories',
+    title: 'Multi-Post Stories',
     image: 'images/Snapshoot2.png',
-    technologies: ['HTML', 'CSS', 'javascript'],
+    canopy: 'Canopy',
+    html: 'html',
+    css: 'css',
+    javascript: 'javasctipt',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
   },
@@ -35,41 +38,19 @@ const data = [
     html: 'html',
     css: 'css',
     javascript: 'javasctipt',
-    image1: 'images/Snapshoot1.png',
-    image2: 'images/desktop/Snapshoot-Portfolio.png',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
   },
   {
     id: 'project-4',
     name: 'Multi-Post Stories',
+    canopy: 'Canopy',
     image: 'images/Snapshoot4.png',
-    technologies: ['HTML', 'CSS', 'javascript'],
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
-  },
-  {
-    id: 'project-5',
-    name: 'Tonic',
-    image1: 'images/Snapshoot1.png',
-    image2: 'images/desktop/Snapshoot-Portfolio.png',
     html: 'html',
-    bootstrap: 'bootstrap',
-    ruby: 'Ruby On Rails',
-    github: 'github',
     css: 'css',
     javascript: 'javasctipt',
-    description: `
-    Lorem Ipsum is simply dummy text of the printing and
-    typesetting industry. Lorem Ipsum has been the industry's
-    standard dummy text ever since the 1500s, when an unknown
-    printer took a galley of type and scrambled it 1960s with the
-    releaLorem Ipsum is simply dummy text of the printing and
-    typesetting industry. Lorem Ipsum has been the industry's
-    standard dummy text ever since the 1500s, when an unknown
-    printer took a galley of type and scrambled it 1960s with the
-    releorem Ipsum is simply dummy text of the printing and
-    typesetting industry.`,
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
   },
 ];
 
