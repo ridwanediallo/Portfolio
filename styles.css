@@ -180,7 +180,6 @@ header {
   display: grid;
   justify-self: center;
   width: 90%;
-  margin-bottom: 20px;
   margin: 0 auto;
 }
 
@@ -280,11 +279,16 @@ header {
 .modal {
   display: grid;
   grid-template-rows: auto auto;
-  padding: 20px 0;
-  background-color: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 9px;
-  height: fit-content;
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 10px;
+}
+
+section .modal {
+  display: none;
 }
 
 .modal-div-1 {
@@ -314,11 +318,6 @@ header {
   margin: 0 21px;
 }
 
-/* .modal-div-3 {
-  display: grid;
-  grid-template-rows: 1fr 1.5fr;
-} */
-
 .modal-img {
   margin: 0 21px;
 }
@@ -326,6 +325,7 @@ header {
 .snapshoot1-mob {
   width: 100%;
 }
+
 .snapshoot1-desk {
   width: 100%;
 }
@@ -334,14 +334,14 @@ header {
   margin: 0 21px;
 }
 
-.modal-tools{
+.modal-tools {
   display: flex;
   gap: 20px;
   padding-left: 0;
-  border-bottom: 1px solid #EBECF0;
+  border-bottom: 1px solid #ebecf0;
 }
 
-.modal-tools li{
+.modal-tools li {
   margin-bottom: 20px;
 }
 
@@ -564,7 +564,7 @@ nav ul {
     display: none;
   }
 
-  .desk{
+  .desk {
     display: none;
   }
 
@@ -595,10 +595,6 @@ nav ul {
   }
 
   .menu-links {
-    display: none;
-  }
-
-  .snapshoot1-mob{
     display: none;
   }
 
@@ -692,32 +688,29 @@ nav ul {
     flex: 2;
   }
 
-/* MODAL */
+  /* MODAL */
 
-.detail-section{
-  display: flex;
-  justify-content: center;
-}
+  .detail-section {
+    display: flex;
+    justify-content: center;
+  }
 
+  .modal-mobile-detail {
+    display: flex;
+    gap: 20px;
+  }
 
-.modal-mobile-detail{
-  display: flex;
-  gap: 20px;
-}
-
-.modal-tools li {
+  .modal-tools li {
     margin-bottom: 10px;
-}
+  }
 
-.mobil{
-  border-bottom: none;
-}
+  .mobil {
+    border-bottom: none;
+  }
 
-.mob{
-  display: none;
-
-}
-
+  .mob {
+    display: none;
+  }
 
   footer {
     background-color: #6070ff;
@@ -791,7 +784,7 @@ nav ul {
 }
 
 .popup {
-  display: block;
+  display: none;
   position: fixed;
   z-index: 1; /* Sit on top */
   left: 0;
@@ -801,21 +794,4 @@ nav ul {
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0 0 0); /* Fallback color */
   background-color: rgb(0 0 0 / 40%); /* Black w/ opacity */
-}
-
-.modal {
-  background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  border-radius: 10px;
-}
-
-.popup{
-  display: none;
-}
-
-.modal{
-  display: none;
 }

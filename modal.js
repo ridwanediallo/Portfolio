@@ -8,7 +8,6 @@ const snapshoot1Desk = document.querySelector('.snapshoot1-desk');
 const modaltitle = document.querySelector('.modal-title');
 console.log(seeProjectBtn);
 
-
 const data = [
   {
     id: 'project-1',
@@ -57,15 +56,13 @@ const data = [
   },
 ];
 
-
 closeModal.addEventListener('click', () => {
   console.log('remove');
   popUp.style.display = 'none';
   modal.style.display = 'none';
 });
 
-for(let i = 0; i < data.length; i += 1)
-{
+for (let i = 0; i < data.length; i += 1) {
   projectsList.innerHTML = `${projectsList.innerHTML}
    <div class="content">
             <div class="snapshoot">
@@ -107,7 +104,6 @@ for(let i = 0; i < data.length; i += 1)
           </div>`;
 }
 
-
 document.addEventListener('click', (click) => {
   if (click.target.id === 'open-me') {
     popUp.style.display = 'block';
@@ -115,9 +111,9 @@ document.addEventListener('click', (click) => {
   }
 });
 
-for(let i = 0; i < data.length; i += 1){
+for (let i = 0; i < data.length; i += 1) {
   document.querySelector(`.see-project-${i}`).addEventListener('click', () => {
-      snapshoot1Desk.src = data[i].image;
-      modaltitle.innerHTML = data[i].title;
-  })
+    snapshoot1Desk.src = data[i].image;
+    modaltitle.innerHTML = data[i].title;
+  });
 }
