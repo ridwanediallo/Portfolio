@@ -73,6 +73,18 @@ const data = [
   },
 ];
 
+seeProjectBtn.forEach((btn) => {
+  btn.addEventListener('click', () => {
+      console.log('click');
+    popUp.style.display = 'block';
+    modal.style.display = 'block';
+  });
+});closeModal.addEventListener('click', () => {
+  console.log('remove');
+  popUp.style.display = 'none';
+  modal.style.display = 'none';
+});
+
 const card = data.map((elem) => {
   const modalHtml = `
 <div class="popup">
@@ -94,17 +106,17 @@ const card = data.map((elem) => {
           </div>
           <div class="modal-div-3">
             <div class="modal-img">
-              <img class="snapshoot1-mob" src="images/Snapshoot1.png" alt="snapshoot1" />
-              <img class="snapshoot1-desk" src="images/desktop/Snapshoot-Portfolio.png" alt="snapshoot1" />
+              <img class="snapshoot1-mob" src="${elem.image1}" alt="snapshoot1" />
+              <img class="snapshoot1-desk" src="${elem.image2}" alt="snapshoot1" />
             </div>
             <div class="modal-mobile-detail">
               <!-- <div> -->
                 <p class="modal-description desk mob"></p>
               <div class="tech">
                 <ul class="modal-tools mobil">
-                  <li class="tool">html</li>
-                  <li class="tool">css</li>
-                  <li class="tool">javaScript</li>
+                  <li class="tool">${elem.html}</li>
+                  <li class="tool">${elem.css}</li>
+                  <li class="tool">${elem.javascript}</li>
                 </ul>
                 <ul class="modal-tools desk">
                   <li class="tool">github</li>
