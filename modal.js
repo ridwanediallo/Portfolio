@@ -1,7 +1,6 @@
 const popUp = document.querySelector('.popup');
 const modal = document.querySelector('.modal');
 const closeModal = document.querySelector('.close-modal');
-const seeProjectBtn = document.querySelectorAll('.see-project');
 const projectsList = document.querySelector('.container');
 const snapshoot1Desk = document.querySelector('.snapshoot1-desk');
 const modaltitle = document.querySelector('.modal-title');
