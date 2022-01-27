@@ -2,11 +2,9 @@ const popUp = document.querySelector('.popup');
 const modal = document.querySelector('.modal');
 const closeModal = document.querySelector('.close-modal');
 const seeProjectBtn = document.querySelectorAll('.see-project');
-const detailSection = document.querySelector('.detail-section');
 const projectsList = document.querySelector('.container');
 const snapshoot1Desk = document.querySelector('.snapshoot1-desk');
 const modaltitle = document.querySelector('.modal-title');
-console.log(seeProjectBtn);
 
 const data = [
   {
@@ -16,7 +14,6 @@ const data = [
     html: 'html',
     css: 'css',
     javascript: 'javasctipt',
-    image: 'images/Snapshoot1.png',
     image: 'images/desktop/Snapshoot-Portfolio.png',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
@@ -57,7 +54,6 @@ const data = [
 ];
 
 closeModal.addEventListener('click', () => {
-  console.log('remove');
   popUp.style.display = 'none';
   modal.style.display = 'none';
 });
