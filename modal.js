@@ -113,3 +113,9 @@ document.addEventListener('click', (click) => {
     modal.style.display = 'block';
   }
 });
+
+for(let i = 0; i < data.length; i += 1){
+  document.querySelector(`.see-project-${i}`).addEventListener('click', () => {
+      snapshoot1Desk.src = data[i].image;
+  })
+}
