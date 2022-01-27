@@ -5,6 +5,7 @@ const seeProjectBtn = document.querySelectorAll('.see-project');
 const detailSection = document.querySelector('.detail-section');
 const projectsList = document.querySelector('.container');
 const snapshoot1Desk = document.querySelector('.snapshoot1-desk');
+const modaltitle = document.querySelector('.modal-title');
 console.log(seeProjectBtn);
 
 
@@ -45,7 +46,7 @@ const data = [
   },
   {
     id: 'project-4',
-    name: 'Multi-Post Stories',
+    title: 'Multi-Post Stories',
     canopy: 'Canopy',
     image: 'images/Snapshoot4.png',
     html: 'html',
@@ -117,5 +118,6 @@ document.addEventListener('click', (click) => {
 for(let i = 0; i < data.length; i += 1){
   document.querySelector(`.see-project-${i}`).addEventListener('click', () => {
       snapshoot1Desk.src = data[i].image;
+      modaltitle.innerHTML = data[i].title;
   })
 }
