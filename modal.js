@@ -4,6 +4,7 @@ const closeModal = document.querySelector('.close-modal');
 const seeProjectBtn = document.querySelectorAll('.see-project');
 const detailSection = document.querySelector('.detail-section');
 const projectsList = document.querySelector('.container');
+const snapshoot1Desk = document.querySelector('.snapshoot1-desk');
 console.log(seeProjectBtn);
 
 
@@ -15,8 +16,8 @@ const data = [
     html: 'html',
     css: 'css',
     javascript: 'javasctipt',
-    image1: 'images/Snapshoot1.png',
-    image2: 'images/desktop/Snapshoot-Portfolio.png',
+    image: 'images/Snapshoot1.png',
+    image: 'images/desktop/Snapshoot-Portfolio.png',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
   },
@@ -55,13 +56,8 @@ const data = [
   },
 ];
 
-seeProjectBtn.forEach((btn) => {
-  btn.addEventListener('click', () => {
-      console.log('click');
-    popUp.style.display = 'block';
-    modal.style.display = 'block';
-  });
-});closeModal.addEventListener('click', () => {
+
+closeModal.addEventListener('click', () => {
   console.log('remove');
   popUp.style.display = 'none';
   modal.style.display = 'none';
@@ -74,12 +70,12 @@ for(let i = 0; i < data.length; i += 1)
             <div class="snapshoot">
               <img
                 class="snapshoot1-mob"
-                src="images/Snapshoot1.png"
+                src="${data[i].image}"
                 alt="snapshoot1"
               />
               <img
                 class="snapshoot1-desk"
-                src="images/desktop/Snapshoot-Portfolio.png"
+                src="${data[i].image}"
                 alt="snapshoot1"
               />
             </div>
@@ -105,9 +101,10 @@ for(let i = 0; i < data.length; i += 1)
                 <li class="tool">css</li>
                 <li class="tool">javaScript</li>
               </ul>
-              <button type="button" class="see-project">See Project</button>
+              <button type="button" id="open-me" class='see-project see-project-${i}'>See Project</button>
             </div>
           </div>`;
-  }
+}
 
-});
+
+
