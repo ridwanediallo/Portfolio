@@ -33,3 +33,14 @@ contactLink.forEach((element) => {
     menubtn.style.display = 'block';
   });
 });
+
+function validationForm() {
+  const errorMsg = document.getElementById('error-msg');
+  const userEmail = document.getElementById('mail');
+
+  if (userEmail.value === userEmail.value.toLowerCase()) {
+    return true;
+  }
+  errorMsg.innerHTML = `Your email should be in lowercase. Consider using ${userEmail.value.toLowerCase()} instead`;
+  return false;
+}
