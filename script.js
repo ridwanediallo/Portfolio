@@ -60,8 +60,8 @@ let dataObjct = {
   message: '',
 };
 
-if(localStorage.getItem('dataObjct') != null){
-  dataObjct = JSON.parse(localStorage.getItem('dataObjct'))
+if (localStorage.getItem('dataObjct') != null) {
+  dataObjct = JSON.parse(localStorage.getItem('dataObjct'));
   myForm.fullName.value = dataObjct.fullName;
   myForm.mail.value = dataObjct.mail;
   myForm.message.value = dataObjct.message;
