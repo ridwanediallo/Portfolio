@@ -34,6 +34,8 @@ contactLink.forEach((element) => {
   });
 });
 
+const contactForm = document.getElementById('form');
+
 function validationForm() {
   const errorMsg = document.getElementById('error-msg');
   const userEmail = document.getElementById('mail');
@@ -44,3 +46,9 @@ function validationForm() {
   errorMsg.innerHTML = `Your email should be in lowercase. Consider using ${userEmail.value.toLowerCase()} instead`;
   return false;
 }
+
+contactForm.addEventListener('submit', (submitForm) => {
+  if (!validationForm()) {
+  submitForm.preventDefault();
+  }
+});
