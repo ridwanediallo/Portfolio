@@ -48,7 +48,7 @@ function validationForm() {
 }
 
 contactForm.addEventListener('submit', (e) => {
-  e.preventDefault();
   if (!validationForm()) {
+    e.preventDefault();
   }
 });
