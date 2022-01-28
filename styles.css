@@ -11,6 +11,11 @@ body {
   font-style: normal;
 }
 
+#error-msg {
+  color: red;
+  font-size: 16px;
+}
+
 h1 {
   margin: 0;
   padding: 0;
@@ -368,8 +373,6 @@ section .modal {
   display: grid;
   grid-template-columns: 1fr;
   padding-top: 20px;
-
-  /* margin: 48px 0; */
   background-color: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 0 100px 0 0;

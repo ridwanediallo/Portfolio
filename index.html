@@ -273,22 +273,23 @@
         with it
       </p>
     </div>
-    <form action="https://formspree.io/f/xwkyvenp" method="post" class="form">
+    <form action="https://formspree.io/f/xwkyvenp" method="post" class="form" id="form">
       <div class="name">
         <label for="name"></label>
         <input type="text" name="full-name" id="name" placeholder="Full name" required minlength="2" maxlength="30" />
       </div>
       <div class="email">
         <label for="mail"></label>
-        <input type="email" name="mail" id="mail" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+        <input type="email" name="mail" id="mail" placeholder="Email"
           required />
+          <!-- pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" -->
       </div>
       <div class="message">
         <label for="message"></label>
         <textarea name="message" id="message" placeholder="Enter text here" required maxlength="500"
           minlength="10"></textarea>
       </div>
-
+       <p id="error-msg"></p>
       <button type="submit" class="form-submit">Get in touch</button>
     </form>
 
