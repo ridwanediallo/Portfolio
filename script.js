@@ -52,3 +52,17 @@ contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
   }
 });
+
+
+const form = document.querySelector('#form');
+
+let dataObjct = {
+  fullName: '',
+  mail: '',
+  message: '',
+};
+
+if(localStorage.getItem(dataObjct)){
+    dataObjct = JSON.parse(localStorage.getItem('dataObjct'))
+    
+}
