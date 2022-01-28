@@ -47,8 +47,8 @@ function validationForm() {
   return false;
 }
 
-contactForm.addEventListener('submit', (submitForm) => {
+contactForm.addEventListener('submit', (e) => {
+  e.preventDefault();
   if (!validationForm()) {
-  submitForm.preventDefault();
   }
 });
