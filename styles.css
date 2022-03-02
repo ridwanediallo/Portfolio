@@ -39,7 +39,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
   background-color: #fff;
 }
 
@@ -525,6 +524,7 @@ h2.title {
 
 nav ul {
   display: flex;
+  align-items: center;
   gap: 25px;
 }
 
@@ -567,6 +567,9 @@ nav ul {
     display: none;
   }
 
+  .icon-inner {
+    display: none;
+  }
   .desk {
     display: none;
   }
@@ -765,16 +768,16 @@ nav ul {
 
 @keyframes logo {
   0% {
-    transform: rotate(360deg);
+    transform: rotate(180deg);
   }
 
-  100% {
+  50% {
     transform: rotate(0deg);
   }
 }
 
 .logo {
-  animation: logo 2s ease-in-out 1s 11000;
+  animation: logo 2s ease-in-out 1s;
 }
 
 .tool:hover {
