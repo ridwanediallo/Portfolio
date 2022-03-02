@@ -104,6 +104,7 @@ header {
   color: blue;
   height: 50px;
   width: 50px;
+  margin-right: 20px;
 }
 
 /* HEADING SECTION */
@@ -567,6 +568,10 @@ nav ul {
     display: none;
   }
 
+  .logo a {
+    margin-left: 20px;
+  }
+
   .icon-inner {
     display: none;
   }
@@ -594,6 +599,10 @@ nav ul {
 @media (min-width: 801px) {
   .open {
     display: none;
+  }
+
+  .icon-inner {
+    margin-left: 20px;
   }
 
   .menu-icon {
