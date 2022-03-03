@@ -1,60 +1,68 @@
-const popUp = document.querySelector('.popup');
-const modal = document.querySelector('.modal');
-const closeModal = document.querySelector('.close-modal');
-const projectsList = document.querySelector('.container');
-const snapshoot1Desk = document.querySelector('.snapshoot1-desk');
-const modaltitle = document.querySelector('.modal-title');
+const popUp = document.querySelector(".popup");
+const modal = document.querySelector(".modal");
+const closeModal = document.querySelector(".close-modal");
+const projectsList = document.querySelector(".container");
+const snapshoot1Desk = document.querySelector(".snapshoot1-desk");
+const modaltitle = document.querySelector(".modal-title");
 
 const data = [
   {
-    id: 'project-1',
-    title: 'Tonic',
-    canopy: 'Canopy',
-    html: 'html',
-    css: 'css',
-    javascript: 'javasctipt',
-    image: 'images/desktop/Snapshoot-Portfolio.png',
+    id: "project-1",
+    title: "Tonic",
+    canopy: "Canopy",
+    html: "html",
+    css: "css",
+    javascript: "javasctipt",
+    image: "images/Screenshot-to-list-app.png",
+    about:
+      "This is a to do list app that helps you organize your dayly takes. After adding a task you can edit it and delete it once complete.",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?",
   },
   {
-    id: 'project-2',
-    title: 'Multi-Post Stories',
-    image: 'images/Snapshoot2.png',
-    canopy: 'Canopy',
-    html: 'html',
-    css: 'css',
-    javascript: 'javasctipt',
+    id: "project-2",
+    title: "Multi-Post Stories",
+    image: "images/Snapshoot2.png",
+    canopy: "Canopy",
+    html: "html",
+    css: "css",
+    javascript: "javasctipt",
+    about:
+      "This is a to do list app that helps you organize your dayly takes. After adding a task you can edit it and delete it once complete.",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?",
   },
   {
-    id: 'project-3',
-    title: 'Tonic',
-    canopy: 'Canopy',
-    image: 'images/Snapshoot3.png',
-    html: 'html',
-    css: 'css',
-    javascript: 'javasctipt',
+    id: "project-3",
+    title: "Tonic",
+    canopy: "Canopy",
+    image: "images/Snapshoot3.png",
+    html: "html",
+    css: "css",
+    javascript: "javasctipt",
+    about:
+      "This is a to do list app that helps you organize your dayly takes. After adding a task you can edit it and delete it once complete.",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?",
   },
   {
-    id: 'project-4',
-    title: 'Multi-Post Stories',
-    canopy: 'Canopy',
-    image: 'images/Snapshoot4.png',
-    html: 'html',
-    css: 'css',
-    javascript: 'javasctipt',
+    id: "project-4",
+    title: "Multi-Post Stories",
+    canopy: "Canopy",
+    image: "images/Snapshoot4.png",
+    html: "html",
+    css: "css",
+    javascript: "javasctipt",
+    about:
+      "This is a to do list app that helps you organize your dayly takes. After adding a task you can edit it and delete it once complete.",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?',
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fugiat maiores quam amet hic dolorum unde eaque explicabo sapiente asperiores voluptatibus vel. Neque deserunt sunt vel ducimus voluptatem tenetur quam incidunt esse sequi enim labore beatae iure minus dolorem nam commodi libero atque, voluptatum alias accusantium, molestiae maiores voluptatibus error. Cupiditate, enim nobis. Expedita deserunt et eaque quisquam nostrum ducimus quasi, accusantium facilis, quibusdam quia, accusamus excepturi voluptate minus consectetur dolore adipisci delectus! Facere officiis corrupti autem sequi quod atque?",
   },
 ];
 
-closeModal.addEventListener('click', () => {
-  popUp.style.display = 'none';
-  modal.style.display = 'none';
+closeModal.addEventListener("click", () => {
+  popUp.style.display = "none";
+  modal.style.display = "none";
 });
 
 for (let i = 0; i < data.length; i += 1) {
@@ -99,15 +107,15 @@ for (let i = 0; i < data.length; i += 1) {
           </div>`;
 }
 
-document.addEventListener('click', (click) => {
-  if (click.target.id === 'open-me') {
-    popUp.style.display = 'block';
-    modal.style.display = 'block';
+document.addEventListener("click", (click) => {
+  if (click.target.id === "open-me") {
+    popUp.style.display = "block";
+    modal.style.display = "block";
   }
 });
 
 for (let i = 0; i < data.length; i += 1) {
-  document.querySelector(`.see-project-${i}`).addEventListener('click', () => {
+  document.querySelector(`.see-project-${i}`).addEventListener("click", () => {
     snapshoot1Desk.src = data[i].image;
     modaltitle.innerHTML = data[i].title;
   });
