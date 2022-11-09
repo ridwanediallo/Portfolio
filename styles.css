@@ -372,7 +372,7 @@ section .modal {
 .container-about {
   display: grid;
   grid-template-columns: 1fr;
-  padding-top: 20px;
+  padding: 20px 0;
   background-color: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 0 100px 0 0;
@@ -445,6 +445,7 @@ footer {
   padding-top: 79px;
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
 
 .footer-text {
@@ -597,6 +598,10 @@ nav ul {
 }
 
 @media (min-width: 801px) {
+  .icon-inner {
+    display: none;
+  }
+
   .open {
     display: none;
   }
