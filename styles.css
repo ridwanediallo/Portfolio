@@ -186,6 +186,7 @@ header {
   justify-self: center;
   width: 90%;
   margin: 0 auto;
+  justify-content: center;
 }
 
 .content {
@@ -361,6 +362,10 @@ section .modal {
   border-radius: 8px;
   background-color: #fff;
   margin: 20px 20px 0 0;
+}
+
+.see-projects-btns {
+  display: flex;
 }
 
 .modal-btn img {
