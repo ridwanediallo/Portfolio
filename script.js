@@ -4,6 +4,17 @@ const logo = document.querySelector('.logo');
 const mobilemenu = document.querySelector('.menu-links');
 const contactLink = document.querySelectorAll('.ctc-link a');
 
+const arrowDown = document.querySelector('arrow-down');
+const tech = document.querySelector('tech');
+
+arrowDown.addEventListener('click', (e) => {
+    if (tech.style.display === 'none') {
+      tech.style.display = 'block';
+    } else {
+      tech.style.display = 'none';
+    }
+});
+
 mobilemenu.style.display = 'none';
 
 menubtn.addEventListener('click', () => {

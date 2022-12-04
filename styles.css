@@ -33,6 +33,7 @@ header {
   background-color: #fff;
 }
 
+
 /* TOOLBAR SECTION */
 
 .toolbar {
@@ -678,6 +679,11 @@ nav ul {
   .langguages {
     display: flex;
     flex-direction: row;
+    padding-left: 0;
+  }
+
+  .tech {
+    display: none;
   }
 
   .hero-content {
