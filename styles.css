@@ -516,10 +516,11 @@ form textarea {
 }
 
 .form-submit:hover {
-  background-color: rgb(79, 0, 213);
+  background-color: #6070ff;
   color: #fff;
   text-decoration: underline;
   border: 1px solid #fff;
+  cursor: pointer;
 }
 
 h2.title {
