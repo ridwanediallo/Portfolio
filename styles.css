@@ -35,6 +35,12 @@ header {
 
 /* TOOLBAR SECTION */
 
+header {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  /* box-shadow: 0px 15px 10px -15px #111;  */
+}
 .toolbar {
   display: flex;
   justify-content: space-between;
@@ -101,10 +107,12 @@ header {
 }
 
 .open {
-  color: blue;
+  /* color: blue; */
   height: 50px;
   width: 50px;
   margin-right: 20px;
+  background: transparent;
+  border: none;
 }
 
 /* HEADING SECTION */
@@ -579,9 +587,6 @@ nav ul {
     margin-left: 20px;
   }
 
-  .icon-inner {
-    display: none;
-  }
   .desk {
     display: none;
   }
