@@ -4,6 +4,23 @@ const logo = document.querySelector('.logo');
 const mobilemenu = document.querySelector('.menu-links');
 const contactLink = document.querySelectorAll('.ctc-link a');
 
+const accordions = document.querySelectorAll('.accordion');
+const panel = document.querySelector('.panel');
+
+
+accordions.forEach((accordion) => {
+  accordion.addEventListener('click', (e) => {
+    let accordionBtn = accordion.querySelector(".open-accordion")
+      accordion.classList.toggle('active')
+
+      if (accordionBtn.textContent === '+') {
+        accordionBtn.textContent = '-';
+      } else {
+        accordionBtn.textContent = '+';
+      }
+  });
+});
+
 mobilemenu.style.display = 'none';
 
 menubtn.addEventListener('click', () => {
