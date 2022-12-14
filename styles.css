@@ -382,6 +382,14 @@ section .modal {
 
 /* SECTION ABOUT ME */
 
+.panel {
+  display: none;
+}
+
+.accordion.active .panel {
+  display: block;
+}
+
 .container-about {
   display: grid;
   grid-template-columns: 1fr;
