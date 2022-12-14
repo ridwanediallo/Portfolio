@@ -418,10 +418,15 @@ section .modal {
   padding-left: 20px;
   background-color: #eee;
   padding: 20px;
-  border-radius: 9px 9px 0 0;
   cursor: pointer;
 }
 
+.educ-langguage {
+  border-radius: 12px 12px 0 0;
+}
+.educ-skills {
+  border-radius: 0 0 12px 12px;
+}
  .langguages {
     padding-left: 0;
   }
