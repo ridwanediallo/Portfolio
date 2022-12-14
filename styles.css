@@ -427,9 +427,9 @@ section .modal {
 .educ-skills {
   border-radius: 0 0 12px 12px;
 }
- .langguages {
-    padding-left: 0;
-  }
+.langguages {
+  padding-left: 0;
+}
 
 .langguage {
   display: flex;
@@ -715,6 +715,9 @@ nav ul {
     padding-left: 0;
   }
 
+  .educ-langguage {
+    margin-top: 0;
+  }
   .hero-content {
     background: transparent;
     padding: 0 260px;
