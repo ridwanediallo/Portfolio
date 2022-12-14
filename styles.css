@@ -390,6 +390,12 @@ section .modal {
   display: block;
 }
 
+.open-accordion {
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+}
+
 .container-about {
   display: grid;
   grid-template-columns: 1fr;
