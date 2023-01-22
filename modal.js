@@ -51,7 +51,20 @@ for (let i = 0; i < data.length; i += 1) {
                 <li class="tool">${data[i].tech2}</li>
                 <li class="tool">${data[i].tech3}</li>
               </ul>
-              <button type="button" id="open-me" class='see-project see-project-${i}'>See Project</button>
+              <div class="see-projects-btns">
+                    <button type="button" class="modal-btn">
+                      <a
+                        href=${data[i].liveLink}
+                        >See Live</a
+                      ><img src="images/Icon-see-live.png" alt="live" />
+                    </button>
+                    <button type="button" class="modal-btn">
+                      <a href=${data[i].github}
+                        >See Source</a
+                      >
+                      <img src="images/Icon-see-source.png" alt="Github" />
+                    </button>
+                  </div>
             </div>
           </div>`;
 }
