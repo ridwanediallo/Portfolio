@@ -374,6 +374,7 @@ section .modal {
 
 .see-projects-btns {
   display: flex;
+  padding-left: 20px;
 }
 
 .modal-btn img {
